@@ -5,8 +5,8 @@ const items = document.querySelectorAll(".item-card");
 
 let draggedIndex = null;
 
-items.forEach(item => {
-    item.addEventListener("click", () => {
+items.forEach(card => {
+    card.addEventListener("click", () => {
         const firstEmpty = build.findIndex(slot => slot === null);
 
         if (firstEmpty === -1) {
@@ -14,11 +14,9 @@ items.forEach(item => {
             return;
         }
 
-        build[firstEmpty] = {
-            id: item.dataset.id,
-            name: item.dataset.name,
-            image: item.dataset.image
-        };
+        const item = JSON.parse(card.dataset.item);
+
+        build[firstEmpty] = item;
 
         renderBuild();
     });
@@ -101,7 +99,7 @@ function renderBuild() {
         }
 
         const img = document.createElement("img");
-        img.src = item.image;
+        img.src = item.image.url;
         img.alt = item.name;
         img.title = item.name;
         img.width = 48;

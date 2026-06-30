@@ -129,10 +129,8 @@
 
         <div 
             class="item-card"
-            data-id="{{ item.id }}"
-            data-name="{{ item.name }}"
-            data-image="{{ item.image.url }}"
-        >>
+            data-item='{{ item | tojson }}'
+        >
 
             <img
                 src="{{ item.image.url }}"
