@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from app.services.riot_api import get_latest_patch
+from app.services.item_service import get_all_items
 
 app = Flask(
     __name__,
@@ -10,11 +11,15 @@ app = Flask(
 
 @app.route("/")
 def index():
+
     patch = get_latest_patch()
+
+    items = get_all_items()
 
     return render_template(
         "index.html",
-        patch=patch
+        patch=patch,
+        item_count=len(items)
     )
 
 
