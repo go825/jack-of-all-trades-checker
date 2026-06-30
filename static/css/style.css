@@ -266,6 +266,16 @@ gap:10px;
 
 }
 
+.item-slot.dragging {
+    opacity: 0.45;
+}
+
+.item-slot.drop-target {
+    border-color: var(--gold-light);
+    box-shadow: 0 0 14px rgba(240, 212, 138, 0.65);
+}
+
+
 @media (max-width: 700px) {
     .header {
         flex-direction: column;

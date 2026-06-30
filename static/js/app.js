@@ -3,6 +3,8 @@ const build = new Array(7).fill(null);
 const slots = document.querySelectorAll(".item-slot");
 const items = document.querySelectorAll(".item-card");
 
+let draggedIndex = null;
+
 items.forEach(item => {
     item.addEventListener("click", () => {
         const firstEmpty = build.findIndex(slot => slot === null);
@@ -33,11 +35,64 @@ slots.forEach(slot => {
         build[index] = null;
         renderBuild();
     });
+
+    slot.addEventListener("dragstart", event => {
+        const index = Number(slot.dataset.slot);
+
+        if (build[index] === null) {
+            event.preventDefault();
+            return;
+        }
+
+        draggedIndex = index;
+        event.dataTransfer.effectAllowed = "move";
+        slot.classList.add("dragging");
+    });
+
+    slot.addEventListener("dragend", () => {
+        draggedIndex = null;
+        slot.classList.remove("dragging");
+        clearDropTargets();
+    });
+
+    slot.addEventListener("dragover", event => {
+        event.preventDefault();
+
+        if (draggedIndex === null) {
+            return;
+        }
+
+        slot.classList.add("drop-target");
+    });
+
+    slot.addEventListener("dragleave", () => {
+        slot.classList.remove("drop-target");
+    });
+
+    slot.addEventListener("drop", event => {
+        event.preventDefault();
+
+        const targetIndex = Number(slot.dataset.slot);
+
+        if (draggedIndex === null || draggedIndex === targetIndex) {
+            clearDropTargets();
+            return;
+        }
+
+        const temp = build[targetIndex];
+        build[targetIndex] = build[draggedIndex];
+        build[draggedIndex] = temp;
+
+        draggedIndex = null;
+        clearDropTargets();
+        renderBuild();
+    });
 });
 
 function renderBuild() {
     slots.forEach((slot, index) => {
         slot.innerHTML = "";
+        slot.setAttribute("draggable", build[index] !== null);
 
         const item = build[index];
 
@@ -51,7 +106,17 @@ function renderBuild() {
         img.title = item.name;
         img.width = 48;
         img.height = 48;
+        img.draggable = false;
 
         slot.appendChild(img);
     });
 }
+
+function clearDropTargets() {
+    slots.forEach(slot => {
+        slot.classList.remove("drop-target");
+        slot.classList.remove("dragging");
+    });
+}
+
+renderBuild();
