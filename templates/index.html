@@ -54,14 +54,14 @@
         </div>
 
         <div class="build-grid">
-            <div class="item-slot"></div>
-            <div class="item-slot"></div>
-            <div class="item-slot"></div>
-            <div class="item-slot boot-slot">👢</div>
+            <div class="item-slot" data-slot="0"></div>
+            <div class="item-slot" data-slot="1"></div>
+            <div class="item-slot" data-slot="2"></div>
+            <div class="item-slot boot-slot" data-slot="3"></div>
 
-            <div class="item-slot"></div>
-            <div class="item-slot"></div>
-            <div class="item-slot"></div>
+            <div class="item-slot" data-slot="4"></div>
+            <div class="item-slot" data-slot="5"></div>
+            <div class="item-slot" data-slot="6"></div>
         </div>
     </section>
 
@@ -127,7 +127,12 @@
 
         {% for item in items %}
 
-        <div class="item-card">
+        <div 
+            class="item-card"
+            data-id="{{ item.id }}"
+            data-name="{{ item.name }}"
+            data-image="{{ item.image.url }}"
+        >>
 
             <img
                 src="{{ item.image.url }}"
@@ -142,6 +147,8 @@
     </div>
 
 </div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
 </body>
 </html>
