@@ -108,6 +108,9 @@ function renderBuild() {
 
         slot.appendChild(img);
     });
+
+    const jackStats = calculateJackStats(build);
+    console.log("何でも屋ステータス:", jackStats);
 }
 
 function clearDropTargets() {
