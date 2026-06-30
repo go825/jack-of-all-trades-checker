@@ -19,7 +19,8 @@ def index():
     return render_template(
         "index.html",
         patch=patch,
-        item_count=len(items)
+        item_count=len(items),
+        items=items
     )
 
 

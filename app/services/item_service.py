@@ -51,15 +51,23 @@ def filter_shop_items(raw_items):
         gold = item.get("gold", {})
         tags = item.get("tags", [])
 
+        # サモナーズリフトで使えないものを除外
         if not maps.get("11", False):
             continue
 
+        # 購入不可アイテムを除外
         if not gold.get("purchasable", False):
             continue
 
+        # 価格0の内部用アイテムを除外
         if gold.get("total", 0) <= 0:
             continue
 
+        # 売却価格0の特殊アイテムを除外
+        if gold.get("sell", 0) <= 0:
+            continue
+
+        # Trinket類は除外
         if "Trinket" in tags:
             continue
 

@@ -123,16 +123,23 @@
         </select>
     </section>
 
-    <section class="panel item-list-panel">
-        <h2>アイテム一覧 ({{ item_count }}件)</h2>
+    <div class="item-list">
 
-        <div class="item-list">
-            <div class="item-card">🗡 ロングソード</div>
-            <div class="item-card">🗡 ダガー</div>
-            <div class="item-card">🛡 クロースアーマー</div>
-            <div class="item-card">👢 アイオニアブーツ</div>
+        {% for item in items %}
+
+        <div class="item-card">
+
+            <img
+                src="{{ item.image.url }}"
+                alt="{{ item.name }}"
+                title="{{ item.name }}"
+            >
+
         </div>
-    </section>
+
+        {% endfor %}
+
+    </div>
 
 </div>
 

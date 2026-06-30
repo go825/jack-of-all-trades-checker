@@ -593,66 +593,6 @@
     }
   },
   {
-    "id": "1101",
-    "name": "スコーチクロウの幼体",
-    "description": "<mainText><stats></stats><br><br><passive>ジャングル コンパニオン</passive><br><font color='#DD2E2E'>スコーチクロウ</font>を召喚する。コンパニオンはモンスターとの戦闘を手助けしてくれる。<br><br>モンスターを狩ることでコンパニオンが成長し、<spellName>スマイト</spellName>が強化される。最大まで成長するとジャングルクエストが完了し、一定時間ごとにプレイヤーの次の通常攻撃またはスキルが強化され、敵を炎上させて<status>スロウ効果</status>を与える。大型モンスターをキルすると、この効果が直ちに利用可能になる。</mainText>",
-    "plaintext": "",
-    "gold": {
-      "base": 450,
-      "purchasable": true,
-      "total": 450,
-      "sell": 0
-    },
-    "tags": [
-      "Jungle"
-    ],
-    "stats": {},
-    "image": {
-      "full": "1101.png",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1101.png"
-    }
-  },
-  {
-    "id": "1102",
-    "name": "ガストウォーカーの幼体",
-    "description": "<mainText><stats></stats><br><br><passive>ジャングル コンパニオン</passive><br><font color='#38A8E8'>ガストウォーカー</font>を召喚する。コンパニオンはモンスターとの戦闘を手助けしてくれる。<br><br>モンスターを狩ることでコンパニオンが成長し、<spellName>スマイト</spellName>が強化される。最大まで成長するとジャングルクエストが完了し、茂みに入った際に<speed>移動速度</speed>が増加するようになり、大型モンスターをキルするとさらに増加する。</mainText>",
-    "plaintext": "",
-    "gold": {
-      "base": 450,
-      "purchasable": true,
-      "total": 450,
-      "sell": 0
-    },
-    "tags": [
-      "Jungle"
-    ],
-    "stats": {},
-    "image": {
-      "full": "1102.png",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1102.png"
-    }
-  },
-  {
-    "id": "1103",
-    "name": "モスストンパーの幼体",
-    "description": "<mainText><stats></stats><br><br><passive>ジャングル コンパニオン</passive><br><font color='#1CA935'>モスストンパー</font>を召喚する。コンパニオンはモンスターとの戦闘を手助けしてくれる。<br><br>モンスターを狩ることでコンパニオンが成長し、<spellName>スマイト</spellName>が強化される。最大まで成長するとジャングルクエストが完了し、非戦闘状態になるか大型モンスターをキルすると、コンパニオンがシールドを付与してくれるようになる。</mainText>",
-    "plaintext": "",
-    "gold": {
-      "base": 450,
-      "purchasable": true,
-      "total": 450,
-      "sell": 0
-    },
-    "tags": [
-      "Jungle"
-    ],
-    "stats": {},
-    "image": {
-      "full": "1103.png",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1103.png"
-    }
-  },
-  {
     "id": "1105",
     "name": "モスストンパーの幼体",
     "description": "<mainText><stats></stats><br><br><passive>ジャングル コンパニオン</passive><br><font color='#1CA935'>モスストンパー</font>を召喚する。コンパニオンはモンスターとの戦闘を手助けしてくれる。<br><br>モンスターを狩ることでコンパニオンが成長し、<spellName>スマイト</spellName>が強化される。最大まで成長するとジャングルクエストが完了し、非戦闘状態になるか大型モンスターをキルすると、コンパニオンがシールドを付与してくれるようになる。</mainText>",
@@ -5315,24 +5255,6 @@
     }
   },
   {
-    "id": "663064",
-    "name": "ベイガーの超越のタリスマン",
-    "description": "<mainText><stats></stats><br><br>100%追加で経験値を獲得する。<br><br>ステータスは増加せず、売却もできない…<br><br>…だが、レベル30に到達すると価値が出る。</mainText>",
-    "plaintext": "",
-    "gold": {
-      "base": 900,
-      "purchasable": true,
-      "total": 900,
-      "sell": 0
-    },
-    "tags": [],
-    "stats": {},
-    "image": {
-      "full": "663064.png",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663064.png"
-    }
-  },
-  {
     "id": "6631",
     "name": "ストライドブレイカー",
     "description": "<mainText><stats>攻撃力<attention>40</attention><br>攻撃速度<attention>25%</attention><br>体力<attention>450</attention></stats><br><br><passive>なぎ払い</passive><br>通常攻撃が周囲の敵にも<physicalDamage>物理ダメージ</physicalDamage>を与える。<br><active>破壊の衝撃波</active><br>周囲の敵に<physicalDamage>物理ダメージ</physicalDamage>と35%の<status>スロウ効果</status>を与える。<br>命中したチャンピオン1体につき<speed>35%の増加移動速度</speed>を得る。この増加移動速度は3秒間かけて減衰する。</mainText>",
@@ -5701,32 +5623,6 @@
     "image": {
       "full": "6670.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6670.png"
-    }
-  },
-  {
-    "id": "667101",
-    "name": "ギャンブラーの剣",
-    "description": "<mainText><stats>アダプティブフォース<attention>55</attention><br>スキルヘイスト<attention>10</attention><br>脅威<attention>15</attention><br>魔法防御貫通<attention>15</attention><br>移動速度<attention>15%</attention></stats><br><br><passive>時間稼ぎ</passive><br>「ギャンブラーの剣」を使用している状態でチャンピオンからキルまたはアシストを獲得すると、ドゥームボス ベイガーの登場がさらに10秒遅れる。この剣を所持している状態でキルされると、登場が10秒早まる(開始後14分30秒を過ぎると遅れは適用されない)。<br><br><passive>ダブルダウン</passive><br>チャンピオンからキルまたはアシストを獲得するとスタックを1獲得する。1スタックにつき、キル時に<gold>追加で10ゴールド</gold>を獲得する。また、1スタックにつき被ダメージが5%上昇する。倒されるとスタックを全て失う。</mainText>",
-    "plaintext": "",
-    "gold": {
-      "base": 2500,
-      "purchasable": true,
-      "total": 2500,
-      "sell": 0
-    },
-    "tags": [
-      "Damage",
-      "NonbootsMovement",
-      "MagicPenetration",
-      "ArmorPenetration",
-      "AbilityHaste"
-    ],
-    "stats": {
-      "PercentMovementSpeedMod": 0.15
-    },
-    "image": {
-      "full": "667101.png",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667101.png"
     }
   },
   {
