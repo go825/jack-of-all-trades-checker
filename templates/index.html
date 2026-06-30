@@ -2,13 +2,139 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack of All Trades Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
-<h1>Jack of All Trades Checker</h1>
+<div class="app">
 
-<p>Ver1 開発開始！</p>
+    <header class="header">
+        <div>
+            <h1>Jack of All Trades Checker</h1>
+            <p>League of Legends「何でも屋」スタック確認ツール</p>
+        </div>
+        <div class="patch">Patch {{ patch }}</div>
+    </header>
+
+    <div class="toast">開発中</div>
+
+    <section class="role-tabs">
+        <button>
+        🛡<br>
+        TOP
+        </button>
+
+        <button>
+        🌿<br>
+        JG
+        </button>
+
+        <button>
+        ✨<br>
+        MID
+        </button>
+
+        <button class="active">
+        🏹<br>
+        ADC
+        </button>
+
+        <button>
+        💠<br>
+        SUP
+        </button>
+    </section>
+
+    <section class="panel build-panel">
+        <div class="panel-title">
+            <h2>Build</h2>
+            <button class="clear-button">クリア</button>
+        </div>
+
+        <div class="build-grid">
+            <div class="item-slot"></div>
+            <div class="item-slot"></div>
+            <div class="item-slot"></div>
+            <div class="item-slot boot-slot">👢</div>
+
+            <div class="item-slot"></div>
+            <div class="item-slot"></div>
+            <div class="item-slot"></div>
+        </div>
+    </section>
+
+    <section class="stack-section">
+        <h2>現在のスタック</h2>
+        <div class="stack-boxes">
+            <div class="stack-box active"></div>
+            <div class="stack-box active"></div>
+            <div class="stack-box active"></div>
+            <div class="stack-box active"></div>
+            <div class="stack-box active"></div>
+            <div class="stack-box active"></div>
+            <div class="stack-box"></div>
+            <div class="stack-box"></div>
+            <div class="stack-box"></div>
+            <div class="stack-box"></div>
+        </div>
+        <div class="stack-count">6 / 10</div>
+    </section>
+
+    <section class="panel status-panel">
+        <div class="status-column">
+            <h2>取得済み</h2>
+            <ul>
+                <li>✔ AD</li>
+                <li>✔ HP</li>
+                <li>✔ AS</li>
+                <li>✔ AH</li>
+                <li>✔ Mana</li>
+            </ul>
+        </div>
+
+        <div class="status-column">
+            <h2>未取得</h2>
+            <ul>
+                <li>□ AP</li>
+                <li>□ Armor</li>
+                <li>□ MR</li>
+                <li>□ Crit</li>
+                <li>□ Lifesteal</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="panel item-search-panel">
+        <h2>検索</h2>
+        <input type="text" placeholder="アイテム名で検索...">
+
+        <h2>カテゴリ</h2>
+        <select>
+            <option>すべて</option>
+            <option>スターター</option>
+            <option>ブーツ</option>
+            <option>ファイター</option>
+            <option>メイジ</option>
+            <option>マークスマン</option>
+            <option>タンク</option>
+            <option>サポート</option>
+        </select>
+    </section>
+
+    <section class="panel item-list-panel">
+        <h2>アイテム一覧</h2>
+
+        <div class="item-list">
+            <div class="item-card">🗡 ロングソード</div>
+            <div class="item-card">🗡 ダガー</div>
+            <div class="item-card">🛡 クロースアーマー</div>
+            <div class="item-card">👢 アイオニアブーツ</div>
+        </div>
+    </section>
+
+</div>
 
 </body>
 </html>
