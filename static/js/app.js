@@ -110,6 +110,7 @@ function renderBuild() {
     });
 
     const jackStats = calculateJackStats(build);
+    renderStack(jackStats.length);
     console.log("何でも屋ステータス:", jackStats);
 }
 
@@ -121,3 +122,20 @@ function clearDropTargets() {
 }
 
 renderBuild();
+
+function renderStack(stackCount) {
+    const countElement = document.getElementById("stack-count");
+    const stackBoxes = document.querySelectorAll(".stack-box");
+
+    const cappedCount = Math.min(stackCount, 10);
+
+    countElement.textContent = `${cappedCount} / 10`;
+
+    stackBoxes.forEach((box, index) => {
+        if (index < cappedCount) {
+            box.classList.add("active");
+        } else {
+            box.classList.remove("active");
+        }
+    });
+}
