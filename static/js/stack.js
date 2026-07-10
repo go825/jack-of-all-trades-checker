@@ -7,7 +7,8 @@ const JACK_STAT_LIST = [
     "物理防御",
     "魔法防御",
     "移動速度",
-    "クリティカル率"
+    "クリティカル率",
+    "スキルヘイスト"
 ];
 
 const STAT_RULES = {
@@ -40,7 +41,26 @@ function calculateJackStats(build) {
                 stats.add(label);
             }
         });
+
+        if (hasBaseStat(item.description, "スキルヘイスト")) {
+            stats.add("スキルヘイスト");
+        }
     });
 
     return Array.from(stats);
+}
+
+function hasBaseStat(description, statName) {
+    if (!description) {
+        return false;
+    }
+
+    const statsSection = description.match(
+        /<stats>([\s\S]*?)<\/stats>/i
+    );
+
+    return (
+        statsSection !== null &&
+        statsSection[1].includes(statName)
+    );
 }
