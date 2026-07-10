@@ -109,9 +109,15 @@ function renderBuild() {
         slot.appendChild(img);
     });
 
+    updateJackOfAllTrades();
+}
+
+function updateJackOfAllTrades() {
     const jackStats = calculateJackStats(build);
+
     renderStack(jackStats.length);
     renderStatus(jackStats);
+
     console.log("何でも屋ステータス:", jackStats);
 }
 
