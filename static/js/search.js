@@ -63,6 +63,8 @@ const ITEM_SEARCH_ALIASES = {
 };
 
 const itemSearchInput = document.getElementById("item-search");
+const classFilterButtons = document.querySelectorAll(".class-filter");
+let selectedCategory = "all";
 const searchableItemCards = document.querySelectorAll(".item-card");
 
 const searchableItems = Array.from(searchableItemCards).map(card => {
@@ -74,19 +76,67 @@ const searchableItems = Array.from(searchableItemCards).map(card => {
         card,
         normalizedSearchText: [item.name, ...aliases]
             .map(normalizeSearchText)
-            .join(" ")
+            .join(" "),
+        tags: item.tags || []
     };
 });
 
-itemSearchInput.addEventListener("input", applyItemSearch);
-itemSearchInput.addEventListener("compositionend", applyItemSearch);
+itemSearchInput.addEventListener("input", applyItemFilters);
+itemSearchInput.addEventListener("compositionend", applyItemFilters);
 
-function applyItemSearch() {
-    const query = normalizeSearchText(itemSearchInput.value);
+classFilterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const category = button.dataset.category;
 
-    searchableItems.forEach(({ card, normalizedSearchText }) => {
-        card.hidden = !normalizedSearchText.includes(query);
+        selectedCategory = selectedCategory === category ? "all" : category;
+
+        classFilterButtons.forEach(filterButton => {
+            const isActive = filterButton.dataset.category === selectedCategory;
+            filterButton.classList.toggle("active", isActive);
+            filterButton.setAttribute("aria-pressed", String(isActive));
+        });
+
+        applyItemFilters();
     });
+});
+
+function applyItemFilters() {
+    const query = normalizeSearchText(itemSearchInput.value);
+    const category = selectedCategory;
+
+    searchableItems.forEach(({ card, normalizedSearchText, tags }) => {
+        const matchesSearch = normalizedSearchText.includes(query);
+        const matchesCategory = itemMatchesCategory(tags, category);
+
+        card.hidden = !matchesSearch || !matchesCategory;
+    });
+}
+
+function itemMatchesCategory(tags, category) {
+    const hasTag = tag => tags.includes(tag);
+
+    switch (category) {
+        case "fighter":
+            return hasTag("Damage") && (
+                hasTag("Health") ||
+                hasTag("Armor") ||
+                hasTag("SpellBlock") ||
+                hasTag("AbilityHaste") ||
+                hasTag("LifeSteal")
+            );
+        case "marksman":
+            return hasTag("AttackSpeed") || hasTag("CriticalStrike") || hasTag("OnHit");
+        case "assassin":
+            return hasTag("Damage") && hasTag("ArmorPenetration");
+        case "mage":
+            return hasTag("SpellDamage");
+        case "tank":
+            return hasTag("Health") || hasTag("Armor") || hasTag("SpellBlock");
+        case "support":
+            return hasTag("ManaRegen") || hasTag("GoldPer") || hasTag("Vision") || hasTag("Aura");
+        default:
+            return true;
+    }
 }
 
 function normalizeSearchText(value) {

@@ -109,17 +109,27 @@
         <h2>検索</h2>
         <input id="item-search" type="search" placeholder="アイテム名で検索..." autocomplete="off">
 
-        <h2>カテゴリ</h2>
-        <select>
-            <option>すべて</option>
-            <option>スターター</option>
-            <option>ブーツ</option>
-            <option>ファイター</option>
-            <option>メイジ</option>
-            <option>マークスマン</option>
-            <option>タンク</option>
-            <option>サポート</option>
-        </select>
+        <h2>クラス</h2>
+        <div class="class-filters" aria-label="アイテムクラス">
+            <button class="class-filter" type="button" data-category="fighter" title="ファイター" aria-label="ファイター">
+                <img src="{{ url_for('static', filename='images/classes/fighter.png') }}" alt="">
+            </button>
+            <button class="class-filter" type="button" data-category="marksman" title="マークスマン" aria-label="マークスマン">
+                <img src="{{ url_for('static', filename='images/classes/marksman.png') }}" alt="">
+            </button>
+            <button class="class-filter" type="button" data-category="assassin" title="アサシン" aria-label="アサシン">
+                <img src="{{ url_for('static', filename='images/classes/assassin.png') }}" alt="">
+            </button>
+            <button class="class-filter" type="button" data-category="mage" title="メイジ" aria-label="メイジ">
+                <img src="{{ url_for('static', filename='images/classes/mage.png') }}" alt="">
+            </button>
+            <button class="class-filter" type="button" data-category="tank" title="タンク" aria-label="タンク">
+                <img src="{{ url_for('static', filename='images/classes/tank.png') }}" alt="">
+            </button>
+            <button class="class-filter" type="button" data-category="support" title="サポート" aria-label="サポート">
+                <img src="{{ url_for('static', filename='images/classes/support.png') }}" alt="">
+            </button>
+        </div>
     </section>
 
     <div class="item-list">
