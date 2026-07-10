@@ -147,30 +147,33 @@ function renderStack(stackCount) {
     });
 }
 
-function renderStatus(acquiredStats){
+function renderStatus(acquiredStats) {
+    const acquiredList = document.getElementById("acquired-stats");
+    const missingList = document.getElementById("missing-stats");
 
-    const acquiredList=document.getElementById("acquired-stats");
-    const missingList=document.getElementById("missing-stats");
+    acquiredList.innerHTML = "";
+    missingList.innerHTML = "";
 
-    acquiredList.innerHTML="";
-    missingList.innerHTML="";
+    JACK_STAT_LIST.forEach(stat => {
+        const isAcquired = acquiredStats.includes(stat);
+        const li = document.createElement("li");
+        const icon = document.createElement("img");
+        const label = document.createElement("span");
 
-    JACK_STAT_LIST.forEach(stat=>{
+        li.className = isAcquired ? "stat-item acquired" : "stat-item missing";
+        icon.className = "stat-icon";
+        icon.src = `/static/images/stats/${STAT_ICONS[stat]}`;
+        icon.alt = "";
+        icon.setAttribute("aria-hidden", "true");
+        label.textContent = stat;
 
-        const li=document.createElement("li");
+        li.appendChild(icon);
+        li.appendChild(label);
 
-        if(acquiredStats.includes(stat)){
-
-            li.textContent="✔ "+stat;
+        if (isAcquired) {
             acquiredList.appendChild(li);
-
-        }else{
-
-            li.textContent="□ "+stat;
+        } else {
             missingList.appendChild(li);
-
         }
-
     });
-
 }

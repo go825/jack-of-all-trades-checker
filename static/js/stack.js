@@ -11,6 +11,18 @@ const JACK_STAT_LIST = [
     "スキルヘイスト"
 ];
 
+const STAT_ICONS = {
+    "攻撃力": "attack-damage.png",
+    "魔力": "ability-power.png",
+    "攻撃速度": "attack-speed.png",
+    "体力": "health.png",
+    "マナ": "mana.png",
+    "物理防御": "armor.png",
+    "魔法防御": "magic-resist.png",
+    "移動速度": "movement-speed.png",
+    "クリティカル率": "critical-strike.png",
+    "スキルヘイスト": "ability-haste.png"
+};
 const STAT_RULES = {
     FlatPhysicalDamageMod: "攻撃力",
     FlatMagicDamageMod: "魔力",

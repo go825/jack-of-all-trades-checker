@@ -215,6 +215,31 @@ body {
     padding: 6px 0;
 }
 
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 30px;
+}
+
+.stat-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.stat-item.acquired {
+    color: var(--gold-light);
+}
+
+.stat-item.missing {
+    color: var(--muted);
+}
+
+.stat-item.missing .stat-icon {
+    filter: grayscale(1);
+    opacity: 0.4;
+}
 .item-search-panel input,
 .item-search-panel select {
     width: 100%;
