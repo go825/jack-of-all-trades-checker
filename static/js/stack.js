@@ -1,3 +1,15 @@
+const JACK_STAT_LIST = [
+    "攻撃力",
+    "魔力",
+    "攻撃速度",
+    "体力",
+    "マナ",
+    "物理防御",
+    "魔法防御",
+    "移動速度",
+    "クリティカル率"
+];
+
 const STAT_RULES = {
     FlatPhysicalDamageMod: "攻撃力",
     FlatMagicDamageMod: "魔力",

@@ -111,6 +111,7 @@ function renderBuild() {
 
     const jackStats = calculateJackStats(build);
     renderStack(jackStats.length);
+    renderStatus(jackStats);
     console.log("何でも屋ステータス:", jackStats);
 }
 
@@ -138,4 +139,32 @@ function renderStack(stackCount) {
             box.classList.remove("active");
         }
     });
+}
+
+function renderStatus(acquiredStats){
+
+    const acquiredList=document.getElementById("acquired-stats");
+    const missingList=document.getElementById("missing-stats");
+
+    acquiredList.innerHTML="";
+    missingList.innerHTML="";
+
+    JACK_STAT_LIST.forEach(stat=>{
+
+        const li=document.createElement("li");
+
+        if(acquiredStats.includes(stat)){
+
+            li.textContent="✔ "+stat;
+            acquiredList.appendChild(li);
+
+        }else{
+
+            li.textContent="□ "+stat;
+            missingList.appendChild(li);
+
+        }
+
+    });
+
 }
