@@ -107,7 +107,7 @@
 
     <section class="panel item-search-panel">
         <h2>検索</h2>
-        <input type="text" placeholder="アイテム名で検索...">
+        <input id="item-search" type="search" placeholder="アイテム名で検索..." autocomplete="off">
 
         <h2>カテゴリ</h2>
         <select>
@@ -147,6 +147,7 @@
 
 <script src="{{ url_for('static', filename='js/stack.js') }}"></script>
 <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
 
 </body>
 </html>

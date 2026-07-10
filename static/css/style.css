@@ -274,6 +274,10 @@ gap:10px;
     transition:.15s;
 }
 
+.item-card[hidden] {
+    display: none;
+}
+
 .item-card img{
 
     width:48px;
