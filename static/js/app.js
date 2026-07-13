@@ -1,10 +1,13 @@
-const roleBuilds = {
+const emptyRoleBuilds = {
     top: new Array(6).fill(null),
     jungle: new Array(6).fill(null),
     mid: new Array(6).fill(null),
     adc: new Array(7).fill(null),
     support: new Array(7).fill(null)
 };
+
+const savedBuildState = loadBuildState(emptyRoleBuilds, "adc");
+const roleBuilds = savedBuildState.roleBuilds;
 
 const SUPPORT_ITEM_IDS = new Set([
     "3865",
@@ -15,17 +18,20 @@ const SUPPORT_ITEM_IDS = new Set([
     "3877"
 ]);
 
-let activeRole = "adc";
+let activeRole = savedBuildState.activeRole;
 let build = roleBuilds[activeRole];
 
 const buildGrid = document.querySelector(".build-grid");
 const slots = document.querySelectorAll(".item-slot");
 const items = document.querySelectorAll(".item-card");
 const roleButtons = document.querySelectorAll(".role-tabs button");
+const clearButton = document.querySelector(".clear-button");
 
 let draggedIndex = null;
 
 roleButtons.forEach(button => {
+    button.classList.toggle("active", button.dataset.role === activeRole);
+
     button.addEventListener("click", () => {
         activeRole = button.dataset.role;
         build = roleBuilds[activeRole];
@@ -37,6 +43,7 @@ roleButtons.forEach(button => {
 
         clearDropTargets();
         renderBuild();
+        saveCurrentBuildState();
     });
 });
 
@@ -67,6 +74,7 @@ items.forEach(card => {
 
         build[targetIndex] = item;
         renderBuild();
+        saveCurrentBuildState();
     });
 });
 
@@ -80,6 +88,7 @@ slots.forEach(slot => {
 
         build[index] = null;
         renderBuild();
+        saveCurrentBuildState();
     });
 
     slot.addEventListener("dragstart", event => {
@@ -142,7 +151,14 @@ slots.forEach(slot => {
         draggedIndex = null;
         clearDropTargets();
         renderBuild();
+        saveCurrentBuildState();
     });
+});
+
+clearButton.addEventListener("click", () => {
+    build.fill(null);
+    renderBuild();
+    saveCurrentBuildState();
 });
 
 function findItemTargetIndex(item) {
@@ -279,6 +295,10 @@ function clearDropTargets() {
         slot.classList.remove("drop-target");
         slot.classList.remove("dragging");
     });
+}
+
+function saveCurrentBuildState() {
+    saveBuildState(roleBuilds, activeRole);
 }
 
 renderBuild();
