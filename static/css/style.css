@@ -467,3 +467,82 @@ gap:10px;
 .item-tooltip-description shield {
     color: #73c990;
 }
+.item-tooltip-recipe {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #263a4c;
+}
+
+.item-tooltip-recipe-title {
+    margin-bottom: 8px;
+    color: var(--gold-light);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.item-tooltip-recipe-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-tooltip-recipe-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84px;
+    color: #c8c5b5;
+    font-size: 11px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.item-tooltip-recipe-item img {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #566778;
+}
+
+.item-tooltip-recipe-item.core img {
+    border-color: var(--gold);
+}
+
+.item-tooltip-recipe-item span {
+    margin-top: 4px;
+    overflow-wrap: anywhere;
+}
+
+.item-tooltip-recipe-branches {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    max-width: 100%;
+    margin-top: 24px;
+}
+
+.item-tooltip-recipe-branches::before {
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 42px;
+    right: 42px;
+    border-top: 1px solid #667789;
+}
+
+.item-tooltip-recipe-item.core::after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    height: 11px;
+    border-left: 1px solid #667789;
+}
+
+.item-tooltip-recipe-item.material::before {
+    content: "";
+    position: absolute;
+    top: -13px;
+    height: 13px;
+    border-left: 1px solid #667789;
+}

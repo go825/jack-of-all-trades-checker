@@ -16,11 +16,12 @@
     "stats": {
       "FlatMovementSpeedMod": 25
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1001.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1001.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1004",
@@ -37,11 +38,12 @@
       "ManaRegen"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1004.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1004.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1006",
@@ -58,11 +60,12 @@
       "HealthRegen"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": "tank",
     "image": {
       "full": "1006.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1006.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "1011",
@@ -81,11 +84,14 @@
     "stats": {
       "FlatHPPoolMod": 350
     },
+    "from": [
+      "1028"
+    ],
+    "shop_class": null,
     "image": {
       "full": "1011.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1011.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1018",
@@ -104,11 +110,12 @@
     "stats": {
       "FlatCritChanceMod": 0.15
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1018.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1018.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1026",
@@ -127,11 +134,12 @@
     "stats": {
       "FlatMagicDamageMod": 45
     },
+    "from": [],
+    "shop_class": "mage",
     "image": {
       "full": "1026.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1026.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "1027",
@@ -150,11 +158,12 @@
     "stats": {
       "FlatMPPoolMod": 300
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1027.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1027.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1028",
@@ -173,11 +182,12 @@
     "stats": {
       "FlatHPPoolMod": 150
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1028.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1028.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1029",
@@ -196,11 +206,12 @@
     "stats": {
       "FlatArmorMod": 15
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1029.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1029.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1031",
@@ -219,11 +230,14 @@
     "stats": {
       "FlatArmorMod": 40
     },
+    "from": [
+      "1029"
+    ],
+    "shop_class": null,
     "image": {
       "full": "1031.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1031.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1033",
@@ -242,11 +256,12 @@
     "stats": {
       "FlatSpellBlockMod": 20
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1033.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1033.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1036",
@@ -266,11 +281,12 @@
     "stats": {
       "FlatPhysicalDamageMod": 10
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1036.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1036.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1037",
@@ -289,11 +305,12 @@
     "stats": {
       "FlatPhysicalDamageMod": 25
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1037.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1037.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1038",
@@ -312,11 +329,12 @@
     "stats": {
       "FlatPhysicalDamageMod": 40
     },
+    "from": [],
+    "shop_class": "marksman",
     "image": {
       "full": "1038.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1038.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "1042",
@@ -335,11 +353,12 @@
     "stats": {
       "PercentAttackSpeedMod": 0.1
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1042.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1042.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1043",
@@ -359,11 +378,14 @@
     "stats": {
       "PercentAttackSpeedMod": 0.15
     },
+    "from": [
+      "1042"
+    ],
+    "shop_class": null,
     "image": {
       "full": "1043.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1043.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1052",
@@ -382,11 +404,12 @@
     "stats": {
       "FlatMagicDamageMod": 20
     },
+    "from": [],
+    "shop_class": "mage",
     "image": {
       "full": "1052.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1052.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "1053",
@@ -407,11 +430,14 @@
       "FlatPhysicalDamageMod": 15,
       "PercentLifeStealMod": 0.07
     },
+    "from": [
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "1053.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1053.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "1054",
@@ -433,11 +459,12 @@
       "FlatHPPoolMod": 110,
       "FlatHPRegenMod": 0.8
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1054.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1054.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1055",
@@ -461,11 +488,12 @@
       "FlatHPPoolMod": 80,
       "FlatPhysicalDamageMod": 10
     },
+    "from": [],
+    "shop_class": "marksman",
     "image": {
       "full": "1055.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1055.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "1056",
@@ -488,11 +516,12 @@
       "FlatHPPoolMod": 90,
       "FlatMagicDamageMod": 18
     },
+    "from": [],
+    "shop_class": "mage",
     "image": {
       "full": "1056.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1056.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "1057",
@@ -511,11 +540,14 @@
     "stats": {
       "FlatSpellBlockMod": 45
     },
+    "from": [
+      "1033"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "1057.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1057.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "1058",
@@ -534,11 +566,12 @@
     "stats": {
       "FlatMagicDamageMod": 65
     },
+    "from": [],
+    "shop_class": "mage",
     "image": {
       "full": "1058.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1058.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "1082",
@@ -560,11 +593,12 @@
       "FlatHPPoolMod": 50,
       "FlatMagicDamageMod": 15
     },
+    "from": [],
+    "shop_class": "mage",
     "image": {
       "full": "1082.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1082.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "1083",
@@ -585,11 +619,12 @@
     "stats": {
       "FlatPhysicalDamageMod": 7
     },
+    "from": [],
+    "shop_class": "marksman",
     "image": {
       "full": "1083.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1083.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "1086",
@@ -612,11 +647,12 @@
       "FlatPhysicalDamageMod": 8,
       "PercentAttackSpeedMod": 0.15
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1086.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1086.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1105",
@@ -633,11 +669,12 @@
       "Jungle"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1105.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1105.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1106",
@@ -654,11 +691,12 @@
       "Jungle"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1106.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1106.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1107",
@@ -675,11 +713,12 @@
       "Jungle"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1107.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1107.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "1120",
@@ -703,11 +742,12 @@
       "FlatHPPoolMod": 150,
       "FlatArmorMod": 8
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "1120.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1120.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2003",
@@ -727,11 +767,12 @@
       "Jungle"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2003.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2003.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2019",
@@ -752,11 +793,16 @@
       "FlatArmorMod": 30,
       "FlatPhysicalDamageMod": 15
     },
+    "from": [
+      "1029",
+      "1036",
+      "1029"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2019.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2019.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2020",
@@ -777,11 +823,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 25
     },
+    "from": [
+      "2022",
+      "1037"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2020.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2021",
@@ -802,11 +852,15 @@
       "FlatHPPoolMod": 250,
       "FlatPhysicalDamageMod": 15
     },
+    "from": [
+      "1036",
+      "1028"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2021.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2021.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2022",
@@ -823,11 +877,12 @@
       "CooldownReduction"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2022.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2022.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2031",
@@ -848,11 +903,12 @@
       "Jungle"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2031.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2031.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2051",
@@ -874,11 +930,12 @@
       "FlatHPPoolMod": 150,
       "FlatHPRegenMod": 4
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2051.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2051.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2055",
@@ -898,11 +955,12 @@
       "Vision"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2055.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2055.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2065",
@@ -927,11 +985,15 @@
       "FlatMagicDamageMod": 50,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3113",
+      "4642"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "2065.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2065.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "2138",
@@ -951,11 +1013,12 @@
       "Tenacity"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2138.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2138.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2139",
@@ -974,11 +1037,12 @@
       "SpellDamage"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2139.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2139.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2140",
@@ -998,11 +1062,12 @@
       "SpellVamp"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2140.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2140.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2141",
@@ -1020,11 +1085,12 @@
       "Consumable"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "2141.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2141.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2420",
@@ -1046,11 +1112,16 @@
       "FlatMagicDamageMod": 40,
       "FlatArmorMod": 25
     },
+    "from": [
+      "1052",
+      "1029",
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "2420.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2420.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "2421",
@@ -1068,11 +1139,16 @@
       "FlatMagicDamageMod": 40,
       "FlatArmorMod": 25
     },
+    "from": [
+      "1052",
+      "1029",
+      "1052"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2421.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2421.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2501",
@@ -1093,11 +1169,15 @@
       "FlatHPPoolMod": 550,
       "FlatPhysicalDamageMod": 30
     },
+    "from": [
+      "2021",
+      "2021"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2501.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2501.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2502",
@@ -1120,11 +1200,16 @@
       "FlatHPPoolMod": 400,
       "FlatArmorMod": 50
     },
+    "from": [
+      "1031",
+      "3067",
+      "1028"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2502.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2502.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2503",
@@ -1147,11 +1232,15 @@
       "FlatMPPoolMod": 600,
       "FlatMagicDamageMod": 80
     },
+    "from": [
+      "3802",
+      "2508"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2503.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2503.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2504",
@@ -1173,11 +1262,15 @@
       "FlatSpellBlockMod": 80,
       "FlatHPPoolMod": 400
     },
+    "from": [
+      "3211",
+      "1057"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2504.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2504.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2508",
@@ -1196,11 +1289,14 @@
     "stats": {
       "FlatMagicDamageMod": 30
     },
+    "from": [
+      "1052"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2508.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2508.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2510",
@@ -1225,11 +1321,17 @@
       "FlatMagicDamageMod": 60,
       "PercentAttackSpeedMod": 0.2
     },
+    "from": [
+      "3057",
+      "1026",
+      "3067",
+      "1042"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2510.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2510.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2512",
@@ -1253,11 +1355,15 @@
       "PercentAttackSpeedMod": 0.45,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3086",
+      "3144"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2512.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2512.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2517",
@@ -1280,11 +1386,16 @@
     "stats": {
       "FlatPhysicalDamageMod": 65
     },
+    "from": [
+      "3133",
+      "1037",
+      "1036"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2517.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2517.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2520",
@@ -1305,11 +1416,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "2020",
+      "3134"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2520.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2520.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2522",
@@ -1331,11 +1446,15 @@
       "FlatMPPoolMod": 300,
       "FlatMagicDamageMod": 90
     },
+    "from": [
+      "3802",
+      "1026"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2522.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2522.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2523",
@@ -1356,11 +1475,16 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "1037",
+      "6670",
+      "1036"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2523.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2523.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2524",
@@ -1386,11 +1510,16 @@
       "FlatHPPoolMod": 200,
       "FlatArmorMod": 20
     },
+    "from": [
+      "3067",
+      "1029",
+      "1033"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2524.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2524.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2525",
@@ -1412,11 +1541,15 @@
     "stats": {
       "FlatHPPoolMod": 600
     },
+    "from": [
+      "3067",
+      "1011"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2525.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2525.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "2526",
@@ -1438,11 +1571,16 @@
       "FlatMPPoolMod": 300,
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3114",
+      "1028",
+      "3070"
+    ],
+    "shop_class": null,
     "image": {
       "full": "2526.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2526.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3003",
@@ -1464,11 +1602,16 @@
       "FlatMPPoolMod": 600,
       "FlatMagicDamageMod": 70
     },
+    "from": [
+      "3070",
+      "3802",
+      "3108"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3003.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3003.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3004",
@@ -1492,11 +1635,16 @@
       "FlatMPPoolMod": 500,
       "FlatPhysicalDamageMod": 35
     },
+    "from": [
+      "3070",
+      "3133",
+      "1036"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3004.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3004.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3006",
@@ -1517,11 +1665,16 @@
       "FlatMovementSpeedMod": 45,
       "PercentAttackSpeedMod": 0.25
     },
+    "from": [
+      "1001",
+      "1042",
+      "1042"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3006.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3006.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3008",
@@ -1542,11 +1695,14 @@
     "stats": {
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "1001"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3008.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3008.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3009",
@@ -1565,11 +1721,14 @@
     "stats": {
       "FlatMovementSpeedMod": 55
     },
+    "from": [
+      "1001"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3009.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3009.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3020",
@@ -1589,11 +1748,14 @@
     "stats": {
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "1001"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3020.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3024",
@@ -1616,11 +1778,16 @@
       "FlatMPPoolMod": 300,
       "FlatArmorMod": 25
     },
+    "from": [
+      "1029",
+      "1027",
+      "2022"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3024.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3024.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3026",
@@ -1641,11 +1808,15 @@
       "FlatArmorMod": 45,
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "2019",
+      "1038"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3026.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3026.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3031",
@@ -1666,11 +1837,16 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 75
     },
+    "from": [
+      "1038",
+      "1037",
+      "1018"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3031.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3031.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3032",
@@ -1692,11 +1868,16 @@
       "FlatPhysicalDamageMod": 50,
       "PercentAttackSpeedMod": 0.4
     },
+    "from": [
+      "1038",
+      "3144",
+      "1036"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3032.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3032.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3033",
@@ -1718,11 +1899,16 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 35
     },
+    "from": [
+      "3123",
+      "3035",
+      "1018"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3033.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3033.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3035",
@@ -1742,11 +1928,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 20
     },
+    "from": [
+      "1036",
+      "1036"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3035.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3035.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3036",
@@ -1768,11 +1958,15 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 35
     },
+    "from": [
+      "3035",
+      "6670"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3036.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3036.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3041",
@@ -1794,11 +1988,14 @@
       "FlatHPPoolMod": 100,
       "FlatMagicDamageMod": 20
     },
+    "from": [
+      "1082"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3041.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3041.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3044",
@@ -1820,11 +2017,15 @@
       "FlatHPPoolMod": 200,
       "FlatPhysicalDamageMod": 15
     },
+    "from": [
+      "1028",
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3044.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3044.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3046",
@@ -1847,11 +2048,16 @@
       "PercentAttackSpeedMod": 0.65,
       "PercentMovementSpeedMod": 0.1
     },
+    "from": [
+      "1042",
+      "3086",
+      "1042"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3046.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3046.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3047",
@@ -1872,11 +2078,15 @@
       "FlatMovementSpeedMod": 45,
       "FlatArmorMod": 25
     },
+    "from": [
+      "1001",
+      "1029"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3047.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3047.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3050",
@@ -1900,11 +2110,16 @@
       "FlatHPPoolMod": 300,
       "FlatArmorMod": 25
     },
+    "from": [
+      "3067",
+      "1029",
+      "1033"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "3050.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3050.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "3051",
@@ -1925,11 +2140,16 @@
       "FlatPhysicalDamageMod": 20,
       "PercentAttackSpeedMod": 0.2
     },
+    "from": [
+      "1036",
+      "1042",
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3051.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3051.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3053",
@@ -1950,11 +2170,16 @@
     "stats": {
       "FlatHPPoolMod": 400
     },
+    "from": [
+      "1037",
+      "2021",
+      "1028"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3053.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3053.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3057",
@@ -1972,11 +2197,14 @@
       "AbilityHaste"
     ],
     "stats": {},
+    "from": [
+      "2022"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3057.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3057.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3065",
@@ -2000,11 +2228,15 @@
       "FlatSpellBlockMod": 50,
       "FlatHPPoolMod": 400
     },
+    "from": [
+      "3211",
+      "3067"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3065.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3065.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3066",
@@ -2025,11 +2257,14 @@
       "FlatHPPoolMod": 200,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "1028"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3066.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3066.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3067",
@@ -2050,11 +2285,15 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "1028",
+      "2022"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3067.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3067.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3068",
@@ -2077,11 +2316,16 @@
       "FlatHPPoolMod": 350,
       "FlatArmorMod": 50
     },
+    "from": [
+      "6660",
+      "1031",
+      "1028"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3068.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3068.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3070",
@@ -2101,11 +2345,12 @@
     "stats": {
       "FlatMPPoolMod": 240
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "3070.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3070.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3071",
@@ -2131,11 +2376,16 @@
       "FlatHPPoolMod": 400,
       "FlatPhysicalDamageMod": 40
     },
+    "from": [
+      "3044",
+      "3067",
+      "1037"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3071.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3071.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3072",
@@ -2156,11 +2406,16 @@
       "FlatPhysicalDamageMod": 80,
       "PercentLifeStealMod": 0.15
     },
+    "from": [
+      "1038",
+      "1037",
+      "1053"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3072.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3072.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3073",
@@ -2186,11 +2441,16 @@
       "FlatPhysicalDamageMod": 40,
       "PercentAttackSpeedMod": 0.2
     },
+    "from": [
+      "2021",
+      "1042",
+      "3044"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3073.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3073.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3074",
@@ -2214,11 +2474,16 @@
       "FlatPhysicalDamageMod": 65,
       "PercentLifeStealMod": 0.12
     },
+    "from": [
+      "3077",
+      "1053",
+      "3133"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3074.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3074.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3075",
@@ -2239,11 +2504,16 @@
       "FlatHPPoolMod": 150,
       "FlatArmorMod": 75
     },
+    "from": [
+      "3076",
+      "1031",
+      "1028"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3075.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3075.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3076",
@@ -2262,11 +2532,15 @@
     "stats": {
       "FlatArmorMod": 30
     },
+    "from": [
+      "1029",
+      "1029"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3076.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3076.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3077",
@@ -2286,11 +2560,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 20
     },
+    "from": [
+      "1036",
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3077.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3077.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3078",
@@ -2317,11 +2595,16 @@
       "FlatPhysicalDamageMod": 36,
       "PercentAttackSpeedMod": 0.3
     },
+    "from": [
+      "3057",
+      "3044",
+      "3051"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3078.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3078.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3082",
@@ -2340,11 +2623,15 @@
     "stats": {
       "FlatArmorMod": 40
     },
+    "from": [
+      "1029",
+      "1029"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3082.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3082.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3083",
@@ -2364,11 +2651,16 @@
     "stats": {
       "FlatHPPoolMod": 1000
     },
+    "from": [
+      "1011",
+      "1011",
+      "3801"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3083.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3083.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3084",
@@ -2388,11 +2680,16 @@
     "stats": {
       "FlatHPPoolMod": 900
     },
+    "from": [
+      "1011",
+      "3801",
+      "1011"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3084.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3084.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3085",
@@ -2416,11 +2713,15 @@
       "PercentAttackSpeedMod": 0.4,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3086",
+      "3144"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3085.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3085.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3086",
@@ -2443,11 +2744,15 @@
       "PercentAttackSpeedMod": 0.15,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "1018",
+      "1042"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3086.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3086.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3087",
@@ -2473,11 +2778,16 @@
       "PercentAttackSpeedMod": 0.3,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3144",
+      "3113",
+      "1037"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3087.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3087.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3089",
@@ -2496,11 +2806,15 @@
     "stats": {
       "FlatMagicDamageMod": 130
     },
+    "from": [
+      "1058",
+      "1058"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3089.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3089.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3091",
@@ -2523,11 +2837,16 @@
       "FlatSpellBlockMod": 45,
       "PercentAttackSpeedMod": 0.5
     },
+    "from": [
+      "1043",
+      "1057",
+      "1043"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3091.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3091.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3094",
@@ -2550,11 +2869,15 @@
       "PercentAttackSpeedMod": 0.35,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3086",
+      "3144"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3094.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3094.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3097",
@@ -2578,11 +2901,16 @@
       "FlatPhysicalDamageMod": 50,
       "PercentAttackSpeedMod": 0.2
     },
+    "from": [
+      "1038",
+      "1018",
+      "3144"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3097.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3097.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3100",
@@ -2605,11 +2933,16 @@
       "FlatMagicDamageMod": 100,
       "PercentMovementSpeedMod": 0.06
     },
+    "from": [
+      "3057",
+      "3113",
+      "1026"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3100.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3100.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3102",
@@ -2630,11 +2963,15 @@
       "FlatSpellBlockMod": 40,
       "FlatMagicDamageMod": 105
     },
+    "from": [
+      "1058",
+      "4632"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3102.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3102.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3107",
@@ -2656,11 +2993,15 @@
     "stats": {
       "FlatMagicDamageMod": 30
     },
+    "from": [
+      "3108",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "3107.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3107.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "3108",
@@ -2681,11 +3022,15 @@
     "stats": {
       "FlatMagicDamageMod": 25
     },
+    "from": [
+      "1052",
+      "2022"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3108.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3108.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3109",
@@ -2711,11 +3056,16 @@
       "FlatHPPoolMod": 200,
       "FlatArmorMod": 40
     },
+    "from": [
+      "3067",
+      "1031",
+      "1006"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3109.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3109.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3110",
@@ -2739,11 +3089,15 @@
       "FlatMPPoolMod": 400,
       "FlatArmorMod": 75
     },
+    "from": [
+      "3082",
+      "3024"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3110.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3110.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3111",
@@ -2765,11 +3119,15 @@
       "FlatSpellBlockMod": 20,
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "1001",
+      "1033"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3111.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3111.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3112",
@@ -2792,11 +3150,12 @@
       "FlatHPPoolMod": 150,
       "FlatMagicDamageMod": 50
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "3112.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3112.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3113",
@@ -2817,11 +3176,14 @@
       "FlatMagicDamageMod": 30,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3113.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3113.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3114",
@@ -2838,11 +3200,14 @@
       "ManaRegen"
     ],
     "stats": {},
+    "from": [
+      "1004"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3114.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3114.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3115",
@@ -2865,11 +3230,16 @@
       "FlatMagicDamageMod": 80,
       "PercentAttackSpeedMod": 0.5
     },
+    "from": [
+      "1043",
+      "1026",
+      "3108"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3115.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3115.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3116",
@@ -2891,11 +3261,16 @@
       "FlatHPPoolMod": 400,
       "FlatMagicDamageMod": 65
     },
+    "from": [
+      "1026",
+      "1011",
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3116.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3116.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3118",
@@ -2917,11 +3292,15 @@
       "FlatMPPoolMod": 600,
       "FlatMagicDamageMod": 90
     },
+    "from": [
+      "3802",
+      "1026"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3118.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3118.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3119",
@@ -2943,11 +3322,16 @@
       "FlatMPPoolMod": 500,
       "FlatHPPoolMod": 550
     },
+    "from": [
+      "3070",
+      "1011",
+      "3067"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3119.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3119.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3123",
@@ -2966,11 +3350,14 @@
     "stats": {
       "FlatPhysicalDamageMod": 15
     },
+    "from": [
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3123.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3123.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3124",
@@ -2994,11 +3381,16 @@
       "FlatPhysicalDamageMod": 30,
       "PercentAttackSpeedMod": 0.25
     },
+    "from": [
+      "1052",
+      "1043",
+      "1037"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3124.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3124.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3133",
@@ -3019,11 +3411,16 @@
     "stats": {
       "FlatPhysicalDamageMod": 20
     },
+    "from": [
+      "1036",
+      "2022",
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3133.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3133.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3134",
@@ -3043,11 +3440,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 20
     },
+    "from": [
+      "1036",
+      "1036"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "3134.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3134.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "3135",
@@ -3067,11 +3468,15 @@
     "stats": {
       "FlatMagicDamageMod": 95
     },
+    "from": [
+      "4630",
+      "1026"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3135.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3135.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3137",
@@ -3092,11 +3497,16 @@
     "stats": {
       "FlatMagicDamageMod": 75
     },
+    "from": [
+      "4630",
+      "3108",
+      "3108"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3137.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3137.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3139",
@@ -3122,11 +3532,16 @@
       "FlatPhysicalDamageMod": 50,
       "PercentLifeStealMod": 0.1
     },
+    "from": [
+      "3140",
+      "1037",
+      "1053"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3139.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3139.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3140",
@@ -3146,11 +3561,14 @@
     "stats": {
       "FlatSpellBlockMod": 30
     },
+    "from": [
+      "1033"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3140.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3140.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3142",
@@ -3173,11 +3591,16 @@
       "FlatPhysicalDamageMod": 55,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3134",
+      "6690",
+      "1036"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "3142.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3142.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "3143",
@@ -3200,11 +3623,15 @@
       "FlatHPPoolMod": 350,
       "FlatArmorMod": 75
     },
+    "from": [
+      "3082",
+      "1011"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3143.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3143.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3144",
@@ -3223,11 +3650,15 @@
     "stats": {
       "PercentAttackSpeedMod": 0.2
     },
+    "from": [
+      "1042",
+      "1042"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3144.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3144.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3145",
@@ -3246,11 +3677,15 @@
     "stats": {
       "FlatMagicDamageMod": 45
     },
+    "from": [
+      "1052",
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3145.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3145.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3146",
@@ -3274,11 +3709,16 @@
       "FlatMagicDamageMod": 80,
       "FlatPhysicalDamageMod": 40
     },
+    "from": [
+      "1053",
+      "3145",
+      "1052"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3146.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3146.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3147",
@@ -3299,11 +3739,15 @@
       "FlatHPPoolMod": 200,
       "FlatMagicDamageMod": 30
     },
+    "from": [
+      "1052",
+      "1028"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3147.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3147.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3152",
@@ -3328,11 +3772,16 @@
       "FlatHPPoolMod": 300,
       "FlatMagicDamageMod": 70
     },
+    "from": [
+      "3145",
+      "3108",
+      "1028"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3152.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3152.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3153",
@@ -3357,11 +3806,16 @@
       "PercentAttackSpeedMod": 0.25,
       "PercentLifeStealMod": 0.1
     },
+    "from": [
+      "1053",
+      "1043",
+      "1037"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3153.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3153.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3155",
@@ -3382,11 +3836,16 @@
       "FlatSpellBlockMod": 25,
       "FlatPhysicalDamageMod": 25
     },
+    "from": [
+      "1036",
+      "1033",
+      "1036"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3155.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3155.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3156",
@@ -3410,11 +3869,15 @@
       "FlatSpellBlockMod": 40,
       "FlatPhysicalDamageMod": 60
     },
+    "from": [
+      "3155",
+      "3133"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3156.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3156.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3157",
@@ -3436,11 +3899,15 @@
       "FlatMagicDamageMod": 105,
       "FlatArmorMod": 50
     },
+    "from": [
+      "1058",
+      "2420"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3157.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3157.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3158",
@@ -3460,11 +3927,15 @@
     "stats": {
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "1001",
+      "2022"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3158.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3158.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3161",
@@ -3486,11 +3957,16 @@
       "FlatHPPoolMod": 450,
       "FlatPhysicalDamageMod": 45
     },
+    "from": [
+      "1037",
+      "2021",
+      "1028"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3161.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3161.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3165",
@@ -3513,11 +3989,16 @@
       "FlatHPPoolMod": 350,
       "FlatMagicDamageMod": 75
     },
+    "from": [
+      "3916",
+      "1026",
+      "3067"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3165.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3165.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3168",
@@ -3538,11 +4019,14 @@
     "stats": {
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "3008"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3168.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3168.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3170",
@@ -3561,11 +4045,14 @@
     "stats": {
       "FlatMovementSpeedMod": 65
     },
+    "from": [
+      "3009"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3170.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3170.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3171",
@@ -3585,11 +4072,14 @@
     "stats": {
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "3158"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3171.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3171.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3172",
@@ -3612,11 +4102,14 @@
       "PercentAttackSpeedMod": 0.4,
       "PercentLifeStealMod": 0.05
     },
+    "from": [
+      "3006"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3172.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3172.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3173",
@@ -3639,11 +4132,14 @@
       "FlatSpellBlockMod": 30,
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "3111"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3173.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3173.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3174",
@@ -3664,11 +4160,14 @@
       "FlatMovementSpeedMod": 45,
       "FlatArmorMod": 35
     },
+    "from": [
+      "3047"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3174.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3174.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3175",
@@ -3688,11 +4187,14 @@
     "stats": {
       "FlatMovementSpeedMod": 45
     },
+    "from": [
+      "3020"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3175.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3175.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3177",
@@ -3715,11 +4217,12 @@
       "FlatHPPoolMod": 150,
       "FlatPhysicalDamageMod": 30
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "3177.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3177.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3179",
@@ -3742,11 +4245,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 60
     },
+    "from": [
+      "3134",
+      "3133"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "3179.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3179.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "3181",
@@ -3769,11 +4276,16 @@
       "FlatPhysicalDamageMod": 40,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "2021",
+      "3066",
+      "1037"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3181.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3181.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3184",
@@ -3797,11 +4309,12 @@
       "FlatPhysicalDamageMod": 25,
       "PercentLifeStealMod": 0.05
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "3184.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3184.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3190",
@@ -3828,11 +4341,16 @@
       "FlatHPPoolMod": 200,
       "FlatArmorMod": 30
     },
+    "from": [
+      "3067",
+      "1029",
+      "1033"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "3190.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3190.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "3211",
@@ -3854,11 +4372,16 @@
       "FlatSpellBlockMod": 35,
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "1028",
+      "1033",
+      "1006"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3211.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3211.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "322065",
@@ -3883,11 +4406,15 @@
       "FlatMagicDamageMod": 65,
       "PercentMovementSpeedMod": 0.06
     },
+    "from": [
+      "3113",
+      "4642"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "322065.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/322065.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3222",
@@ -3911,11 +4438,15 @@
     "stats": {
       "FlatHPPoolMod": 250
     },
+    "from": [
+      "3067",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "3222.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3222.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "322526",
@@ -3937,11 +4468,16 @@
       "FlatMPPoolMod": 300,
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3114",
+      "1028",
+      "323070"
+    ],
+    "shop_class": null,
     "image": {
       "full": "322526.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/322526.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "323003",
@@ -3963,11 +4499,16 @@
       "FlatMPPoolMod": 600,
       "FlatMagicDamageMod": 70
     },
+    "from": [
+      "323070",
+      "3802",
+      "3108"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "323003.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323003.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "323004",
@@ -3991,11 +4532,16 @@
       "FlatMPPoolMod": 500,
       "FlatPhysicalDamageMod": 35
     },
+    "from": [
+      "323070",
+      "3133",
+      "1036"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "323004.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323004.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "323050",
@@ -4019,11 +4565,16 @@
       "FlatHPPoolMod": 350,
       "FlatArmorMod": 30
     },
+    "from": [
+      "1029",
+      "3067",
+      "1033"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "323050.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323050.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "323070",
@@ -4043,11 +4594,12 @@
     "stats": {
       "FlatMPPoolMod": 240
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "323070.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323070.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "323075",
@@ -4068,11 +4620,16 @@
       "FlatHPPoolMod": 200,
       "FlatArmorMod": 85
     },
+    "from": [
+      "3076",
+      "1031",
+      "1028"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "323075.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323075.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "323107",
@@ -4095,11 +4652,16 @@
       "FlatHPPoolMod": 400,
       "FlatMagicDamageMod": 30
     },
+    "from": [
+      "3067",
+      "1028",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "323107.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323107.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "323109",
@@ -4125,11 +4687,16 @@
       "FlatHPPoolMod": 300,
       "FlatArmorMod": 50
     },
+    "from": [
+      "3067",
+      "1031",
+      "1006"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "323109.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323109.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "323110",
@@ -4153,11 +4720,15 @@
       "FlatMPPoolMod": 500,
       "FlatArmorMod": 75
     },
+    "from": [
+      "3082",
+      "3024"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "323110.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323110.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "323119",
@@ -4179,11 +4750,16 @@
       "FlatMPPoolMod": 500,
       "FlatHPPoolMod": 550
     },
+    "from": [
+      "323070",
+      "1011",
+      "3067"
+    ],
+    "shop_class": null,
     "image": {
       "full": "323119.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323119.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "323190",
@@ -4210,11 +4786,16 @@
       "FlatHPPoolMod": 250,
       "FlatArmorMod": 30
     },
+    "from": [
+      "3067",
+      "1029",
+      "1033"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "323190.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323190.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "323222",
@@ -4238,11 +4819,16 @@
     "stats": {
       "FlatHPPoolMod": 400
     },
+    "from": [
+      "3067",
+      "1028",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "323222.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323222.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "323504",
@@ -4265,11 +4851,16 @@
       "FlatMagicDamageMod": 55,
       "PercentMovementSpeedMod": 0.06
     },
+    "from": [
+      "3113",
+      "1052",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "323504.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323504.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "324005",
@@ -4291,11 +4882,15 @@
     "stats": {
       "FlatMagicDamageMod": 65
     },
+    "from": [
+      "1026",
+      "4642"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "324005.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/324005.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "326616",
@@ -4317,11 +4912,16 @@
     "stats": {
       "FlatMagicDamageMod": 45
     },
+    "from": [
+      "3108",
+      "1052",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "326616.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326616.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "326617",
@@ -4345,11 +4945,16 @@
       "FlatHPPoolMod": 400,
       "FlatMagicDamageMod": 35
     },
+    "from": [
+      "3067",
+      "1028",
+      "4642"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "326617.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326617.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "326620",
@@ -4373,11 +4978,15 @@
       "FlatHPPoolMod": 250,
       "FlatMagicDamageMod": 35
     },
+    "from": [
+      "3067",
+      "4642"
+    ],
+    "shop_class": null,
     "image": {
       "full": "326620.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326620.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "326621",
@@ -4397,11 +5006,16 @@
     "stats": {
       "FlatMagicDamageMod": 50
     },
+    "from": [
+      "1026",
+      "3114",
+      "3114"
+    ],
+    "shop_class": null,
     "image": {
       "full": "326621.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326621.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "326657",
@@ -4426,11 +5040,15 @@
       "FlatHPPoolMod": 350,
       "FlatMagicDamageMod": 45
     },
+    "from": [
+      "1026",
+      "3803"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "326657.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326657.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "328020",
@@ -4454,11 +5072,15 @@
       "FlatSpellBlockMod": 50,
       "FlatHPPoolMod": 350
     },
+    "from": [
+      "3067",
+      "1057"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "328020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/328020.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3302",
@@ -4482,11 +5104,15 @@
       "FlatPhysicalDamageMod": 30,
       "PercentAttackSpeedMod": 0.35
     },
+    "from": [
+      "3051",
+      "1043"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3302.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3302.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3504",
@@ -4509,11 +5135,15 @@
       "FlatMagicDamageMod": 45,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3113",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "3504.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3504.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "3508",
@@ -4538,11 +5168,16 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 50
     },
+    "from": [
+      "3057",
+      "3133",
+      "1018"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "3508.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3508.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "3742",
@@ -4566,11 +5201,16 @@
       "FlatArmorMod": 55,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3066",
+      "1028",
+      "1031"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3742.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3742.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3748",
@@ -4593,11 +5233,16 @@
       "FlatHPPoolMod": 600,
       "FlatPhysicalDamageMod": 40
     },
+    "from": [
+      "3077",
+      "2021",
+      "1011"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "3748.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3748.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "3801",
@@ -4617,11 +5262,15 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "1028",
+      "1006"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "3801.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3801.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "3802",
@@ -4645,11 +5294,16 @@
       "FlatMPPoolMod": 300,
       "FlatMagicDamageMod": 40
     },
+    "from": [
+      "1052",
+      "1027",
+      "2022"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3802.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3802.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3803",
@@ -4672,11 +5326,16 @@
       "FlatMPPoolMod": 375,
       "FlatHPPoolMod": 300
     },
+    "from": [
+      "1028",
+      "1028",
+      "1027"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3803.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3803.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "3814",
@@ -4698,11 +5357,15 @@
       "FlatHPPoolMod": 250,
       "FlatPhysicalDamageMod": 50
     },
+    "from": [
+      "3134",
+      "2021"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "3814.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3814.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "3865",
@@ -4725,11 +5388,12 @@
     "stats": {
       "FlatHPPoolMod": 30
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "3865.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3865.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3869",
@@ -4753,11 +5417,14 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3867"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3869.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3869.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3870",
@@ -4781,11 +5448,14 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3867"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3870.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3870.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3871",
@@ -4809,11 +5479,14 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3867"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3871.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3871.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3876",
@@ -4837,11 +5510,14 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3867"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3876.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3876.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3877",
@@ -4865,11 +5541,14 @@
     "stats": {
       "FlatHPPoolMod": 200
     },
+    "from": [
+      "3867"
+    ],
+    "shop_class": null,
     "image": {
       "full": "3877.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3877.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "3916",
@@ -4888,11 +5567,14 @@
     "stats": {
       "FlatMagicDamageMod": 25
     },
+    "from": [
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "3916.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3916.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "4005",
@@ -4914,11 +5596,16 @@
     "stats": {
       "FlatMagicDamageMod": 60
     },
+    "from": [
+      "1052",
+      "4642",
+      "1052"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "4005.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4005.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "4401",
@@ -4941,11 +5628,16 @@
       "FlatHPPoolMod": 400,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "1057",
+      "1028",
+      "3066"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "4401.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4401.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "4628",
@@ -4965,11 +5657,16 @@
     "stats": {
       "FlatMagicDamageMod": 75
     },
+    "from": [
+      "3108",
+      "3108",
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "4628.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4628.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "4629",
@@ -4993,11 +5690,16 @@
       "FlatMagicDamageMod": 70,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "3067",
+      "3113",
+      "3108"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "4629.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4629.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "4630",
@@ -5017,11 +5719,14 @@
     "stats": {
       "FlatMagicDamageMod": 25
     },
+    "from": [
+      "1052"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "4630.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4630.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "4632",
@@ -5042,11 +5747,16 @@
       "FlatSpellBlockMod": 25,
       "FlatMagicDamageMod": 40
     },
+    "from": [
+      "1052",
+      "1033",
+      "1052"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "4632.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4632.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "4633",
@@ -5069,11 +5779,15 @@
       "FlatHPPoolMod": 350,
       "FlatMagicDamageMod": 70
     },
+    "from": [
+      "3147",
+      "3108"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "4633.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4633.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "4642",
@@ -5095,11 +5809,16 @@
     "stats": {
       "FlatMagicDamageMod": 20
     },
+    "from": [
+      "1004",
+      "1052",
+      "2022"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "4642.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4642.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "4645",
@@ -5119,11 +5838,15 @@
     "stats": {
       "FlatMagicDamageMod": 110
     },
+    "from": [
+      "3145",
+      "1058"
+    ],
+    "shop_class": null,
     "image": {
       "full": "4645.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4645.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "4646",
@@ -5146,11 +5869,15 @@
       "FlatMagicDamageMod": 90,
       "PercentMovementSpeedMod": 0.06
     },
+    "from": [
+      "3145",
+      "3113"
+    ],
+    "shop_class": null,
     "image": {
       "full": "4646.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4646.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6333",
@@ -5172,11 +5899,16 @@
       "FlatArmorMod": 50,
       "FlatPhysicalDamageMod": 60
     },
+    "from": [
+      "2019",
+      "1037",
+      "3133"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "6333.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6333.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "6609",
@@ -5199,11 +5931,16 @@
       "FlatHPPoolMod": 450,
       "FlatPhysicalDamageMod": 45
     },
+    "from": [
+      "3123",
+      "1011",
+      "3133"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "6609.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6609.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "6610",
@@ -5226,11 +5963,16 @@
       "FlatHPPoolMod": 400,
       "FlatPhysicalDamageMod": 45
     },
+    "from": [
+      "2021",
+      "3133",
+      "1028"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6610.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6610.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6616",
@@ -5252,11 +5994,15 @@
     "stats": {
       "FlatMagicDamageMod": 35
     },
+    "from": [
+      "3108",
+      "3114"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "6616.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6616.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "6617",
@@ -5280,11 +6026,15 @@
       "FlatHPPoolMod": 200,
       "FlatMagicDamageMod": 25
     },
+    "from": [
+      "3067",
+      "4642"
+    ],
+    "shop_class": "support",
     "image": {
       "full": "6617.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6617.png"
-    },
-    "shop_class": "support"
+    }
   },
   {
     "id": "6620",
@@ -5308,11 +6058,15 @@
       "FlatHPPoolMod": 200,
       "FlatMagicDamageMod": 35
     },
+    "from": [
+      "3067",
+      "4642"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6620.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6620.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6621",
@@ -5332,11 +6086,16 @@
     "stats": {
       "FlatMagicDamageMod": 45
     },
+    "from": [
+      "1026",
+      "3114",
+      "3114"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6621.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6621.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "663039",
@@ -5358,11 +6117,12 @@
       "FlatHPPoolMod": 500,
       "FlatCritChanceMod": 0.2
     },
+    "from": [],
+    "shop_class": "fighter",
     "image": {
       "full": "663039.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663039.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "663056",
@@ -5385,11 +6145,12 @@
       "AbilityHaste"
     ],
     "stats": {},
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "663056.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663056.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "663058",
@@ -5410,11 +6171,12 @@
       "FlatHPPoolMod": 250,
       "FlatArmorMod": 80
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "663058.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663058.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "663059",
@@ -5435,11 +6197,12 @@
       "FlatSpellBlockMod": 60,
       "FlatHPPoolMod": 250
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "663059.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663059.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "663060",
@@ -5460,11 +6223,12 @@
     "stats": {
       "FlatCritChanceMod": 0.5
     },
+    "from": [],
+    "shop_class": "fighter",
     "image": {
       "full": "663060.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663060.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "6631",
@@ -5488,11 +6252,16 @@
       "FlatPhysicalDamageMod": 40,
       "PercentAttackSpeedMod": 0.25
     },
+    "from": [
+      "3077",
+      "3044",
+      "1042"
+    ],
+    "shop_class": "fighter",
     "image": {
       "full": "6631.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6631.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "663146",
@@ -5516,11 +6285,12 @@
       "FlatMagicDamageMod": 90,
       "FlatPhysicalDamageMod": 45
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "663146.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663146.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "663172",
@@ -5544,11 +6314,12 @@
       "PercentAttackSpeedMod": 0.4,
       "PercentMovementSpeedMod": 0.08
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "663172.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663172.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "663193",
@@ -5573,11 +6344,12 @@
       "FlatArmorMod": 55,
       "PercentMovementSpeedMod": 0.08
     },
+    "from": [],
+    "shop_class": "tank",
     "image": {
       "full": "663193.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663193.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "664011",
@@ -5601,11 +6373,12 @@
       "FlatHPPoolMod": 150,
       "FlatMagicDamageMod": 35
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "664011.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/664011.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "664644",
@@ -5629,11 +6402,12 @@
       "FlatHPPoolMod": 250,
       "FlatMagicDamageMod": 65
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "664644.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/664644.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6653",
@@ -5654,11 +6428,15 @@
       "FlatHPPoolMod": 300,
       "FlatMagicDamageMod": 60
     },
+    "from": [
+      "3147",
+      "2508"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "6653.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6653.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "6655",
@@ -5681,11 +6459,15 @@
       "FlatMPPoolMod": 600,
       "FlatMagicDamageMod": 100
     },
+    "from": [
+      "3802",
+      "3145"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "6655.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6655.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "6657",
@@ -5710,11 +6492,15 @@
       "FlatHPPoolMod": 350,
       "FlatMagicDamageMod": 45
     },
+    "from": [
+      "1026",
+      "3803"
+    ],
+    "shop_class": "mage",
     "image": {
       "full": "6657.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6657.png"
-    },
-    "shop_class": "mage"
+    }
   },
   {
     "id": "6660",
@@ -5734,11 +6520,15 @@
     "stats": {
       "FlatHPPoolMod": 150
     },
+    "from": [
+      "1028",
+      "2022"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "6660.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6660.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "6662",
@@ -5763,11 +6553,16 @@
       "FlatHPPoolMod": 300,
       "FlatArmorMod": 50
     },
+    "from": [
+      "3057",
+      "1028",
+      "1031"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "6662.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6662.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "6664",
@@ -5792,11 +6587,15 @@
       "FlatSpellBlockMod": 40,
       "FlatHPPoolMod": 400
     },
+    "from": [
+      "6660",
+      "3211"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6664.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6664.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6665",
@@ -5820,11 +6619,16 @@
       "FlatHPPoolMod": 350,
       "FlatArmorMod": 45
     },
+    "from": [
+      "1011",
+      "1031",
+      "1057"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "6665.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6665.png"
-    },
-    "shop_class": "tank"
+    }
   },
   {
     "id": "6670",
@@ -5845,11 +6649,15 @@
       "FlatCritChanceMod": 0.2,
       "FlatPhysicalDamageMod": 15
     },
+    "from": [
+      "1036",
+      "1018"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "6670.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6670.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "667109",
@@ -5872,11 +6680,12 @@
       "FlatMagicDamageMod": 60,
       "FlatArmorMod": 25
     },
+    "from": [],
+    "shop_class": "fighter",
     "image": {
       "full": "667109.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667109.png"
-    },
-    "shop_class": "fighter"
+    }
   },
   {
     "id": "667112",
@@ -5898,11 +6707,12 @@
     "stats": {
       "FlatHPPoolMod": 500
     },
+    "from": [],
+    "shop_class": null,
     "image": {
       "full": "667112.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667112.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6672",
@@ -5926,11 +6736,16 @@
       "PercentAttackSpeedMod": 0.4,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "6690",
+      "3051",
+      "1043"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "6672.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6672.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "6673",
@@ -5951,11 +6766,15 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "1037",
+      "6670"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "6673.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6673.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "6675",
@@ -5978,11 +6797,16 @@
       "PercentAttackSpeedMod": 0.4,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "1042",
+      "3086",
+      "1042"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6675.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6675.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6676",
@@ -6004,11 +6828,16 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 50
     },
+    "from": [
+      "1037",
+      "3134",
+      "1018"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "6676.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6676.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "667666",
@@ -6030,11 +6859,16 @@
       "FlatCritChanceMod": 0.25,
       "FlatPhysicalDamageMod": 50
     },
+    "from": [
+      "1037",
+      "3134",
+      "1018"
+    ],
+    "shop_class": "marksman",
     "image": {
       "full": "667666.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667666.png"
-    },
-    "shop_class": "marksman"
+    }
   },
   {
     "id": "6690",
@@ -6055,11 +6889,14 @@
       "FlatPhysicalDamageMod": 15,
       "PercentMovementSpeedMod": 0.04
     },
+    "from": [
+      "1036"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6690.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6690.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6692",
@@ -6080,11 +6917,16 @@
     "stats": {
       "FlatPhysicalDamageMod": 60
     },
+    "from": [
+      "3133",
+      "1037",
+      "1036"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "6692.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6692.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "6694",
@@ -6106,11 +6948,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 45
     },
+    "from": [
+      "3133",
+      "3035"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "6694.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6694.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "6695",
@@ -6130,11 +6976,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "3134",
+      "1037"
+    ],
+    "shop_class": "assassin",
     "image": {
       "full": "6695.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6695.png"
-    },
-    "shop_class": "assassin"
+    }
   },
   {
     "id": "6696",
@@ -6155,11 +7005,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "2020",
+      "3133"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6696.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6696.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6697",
@@ -6182,11 +7036,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "3134",
+      "3133"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6697.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6697.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6698",
@@ -6209,11 +7067,15 @@
     "stats": {
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "3077",
+      "2020"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6698.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6698.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "6699",
@@ -6236,11 +7098,16 @@
     "stats": {
       "FlatPhysicalDamageMod": 55
     },
+    "from": [
+      "2020",
+      "1036",
+      "1036"
+    ],
+    "shop_class": null,
     "image": {
       "full": "6699.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6699.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "8010",
@@ -6263,11 +7130,15 @@
       "FlatHPPoolMod": 400,
       "FlatMagicDamageMod": 65
     },
+    "from": [
+      "3147",
+      "3108"
+    ],
+    "shop_class": null,
     "image": {
       "full": "8010.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/8010.png"
-    },
-    "shop_class": null
+    }
   },
   {
     "id": "8020",
@@ -6291,10 +7162,14 @@
       "FlatSpellBlockMod": 45,
       "FlatHPPoolMod": 350
     },
+    "from": [
+      "3067",
+      "1057"
+    ],
+    "shop_class": "tank",
     "image": {
       "full": "8020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/8020.png"
-    },
-    "shop_class": "tank"
+    }
   }
 ]

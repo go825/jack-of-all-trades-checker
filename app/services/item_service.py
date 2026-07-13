@@ -36,12 +36,21 @@ def get_all_items():
         with item_cache_path.open("r", encoding="utf-8") as file:
             cached_items = json.load(file)
 
-        if all("shop_class" in item for item in cached_items):
+        if all(
+            "shop_class" in item and "from" in item
+            for item in cached_items
+        ):
             return cached_items
 
-        enriched_items = add_shop_classes(cached_items, fetch_shop_classes(patch))
-        write_item_cache(item_cache_path, enriched_items)
-        return enriched_items
+        raw_items = fetch_item_data(patch)
+        filtered_items = filter_shop_items(raw_items)
+        rebuilt_items = normalize_items(
+            filtered_items,
+            patch,
+            fetch_shop_classes(patch),
+        )
+        write_item_cache(item_cache_path, rebuilt_items)
+        return rebuilt_items
 
     raw_items = fetch_item_data(patch)
     filtered_items = filter_shop_items(raw_items)
@@ -142,6 +151,7 @@ def normalize_items(items, patch, shop_classes=None):
                 "gold": item.get("gold", {}),
                 "tags": item.get("tags", []),
                 "stats": item.get("stats", {}),
+                "from": [str(source_id) for source_id in item.get("from", [])],
                 "shop_class": shop_classes.get(str(item_id)),
                 "image": {
                     "full": item.get("image", {}).get("full", f"{item_id}.png"),

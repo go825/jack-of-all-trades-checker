@@ -10,9 +10,17 @@ const TOOLTIP_ALLOWED_TAGS = new Set([
     "SHIELD", "SPEED", "STATUS", "RULES", "BR"
 ].map(tag => tag.toUpperCase()));
 
-document.querySelectorAll(".item-card").forEach(card => {
-    card.addEventListener("mouseenter", event => {
+const tooltipItemCards = document.querySelectorAll(".item-card");
+const tooltipItemsById = new Map(
+    Array.from(tooltipItemCards, card => {
         const item = JSON.parse(card.dataset.item);
+        return [String(item.id), item];
+    })
+);
+
+tooltipItemCards.forEach(card => {
+    card.addEventListener("mouseenter", event => {
+        const item = tooltipItemsById.get(String(JSON.parse(card.dataset.item).id));
         renderItemTooltip(item);
         tooltip.hidden = false;
         positionItemTooltip(event.clientX, event.clientY);
@@ -52,8 +60,58 @@ function renderItemTooltip(item) {
     description.append(sanitizeItemDescription(item.description));
 
     tooltip.append(header, description);
+
+    const recipe = createRecipeSection(item);
+    if (recipe !== null) {
+        tooltip.appendChild(recipe);
+    }
 }
 
+function createRecipeSection(item) {
+    const sourceIds = item.from || [];
+    if (sourceIds.length === 0) {
+        return null;
+    }
+
+    const materials = sourceIds
+        .map(sourceId => tooltipItemsById.get(String(sourceId)))
+        .filter(Boolean);
+    if (materials.length === 0) {
+        return null;
+    }
+
+    const section = document.createElement("div");
+    section.className = "item-tooltip-recipe";
+    const title = document.createElement("div");
+    title.className = "item-tooltip-recipe-title";
+    title.textContent = "合成ツリー";
+    const tree = document.createElement("div");
+    tree.className = "item-tooltip-recipe-tree";
+    const core = createRecipeItem(item, "core");
+    const branches = document.createElement("div");
+    branches.className = "item-tooltip-recipe-branches";
+
+    materials.forEach(material => {
+        branches.appendChild(createRecipeItem(material, "material"));
+    });
+
+    tree.append(core, branches);
+    section.append(title, tree);
+    return section;
+}
+
+function createRecipeItem(item, type) {
+    const itemElement = document.createElement("div");
+    itemElement.className = `item-tooltip-recipe-item ${type}`;
+    const image = document.createElement("img");
+    image.src = item.image.url;
+    image.alt = "";
+    const name = document.createElement("span");
+    name.textContent = item.name;
+
+    itemElement.append(image, name);
+    return itemElement;
+}
 function sanitizeItemDescription(description) {
     const documentFragment = document.createDocumentFragment();
     const parsed = new DOMParser().parseFromString(description || "", "text/html");
