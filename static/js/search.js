@@ -67,9 +67,13 @@ const classFilterButtons = document.querySelectorAll(".class-filter");
 let selectedCategory = "all";
 const searchableItemCards = document.querySelectorAll(".item-card");
 
-const searchableItems = Array.from(searchableItemCards).map(card => {
-    const item = JSON.parse(card.dataset.item);
+const searchableItemRecords = Array.from(searchableItemCards, card => ({
+    card,
+    item: JSON.parse(card.dataset.item)
+}));
+const itemCategories = buildItemCategoryMap(searchableItemRecords);
 
+const searchableItems = searchableItemRecords.map(({ card, item }) => {
     const aliases = ITEM_SEARCH_ALIASES[item.name] || [];
 
     return {
@@ -77,7 +81,7 @@ const searchableItems = Array.from(searchableItemCards).map(card => {
         normalizedSearchText: [item.name, ...aliases]
             .map(normalizeSearchText)
             .join(" "),
-        shopClass: item.shop_class || null
+        categories: itemCategories.get(String(item.id)) || new Set()
     };
 });
 
@@ -104,11 +108,66 @@ function applyItemFilters() {
     const query = normalizeSearchText(itemSearchInput.value);
     const category = selectedCategory;
 
-    searchableItems.forEach(({ card, normalizedSearchText, shopClass }) => {
+    searchableItems.forEach(({ card, normalizedSearchText, categories }) => {
         const matchesSearch = normalizedSearchText.includes(query);
-        const matchesCategory = category === "all" || shopClass === category;
+        const matchesCategory = category === "all" || categories.has(category);
 
         card.hidden = !matchesSearch || !matchesCategory;
+    });
+}
+
+function buildItemCategoryMap(records) {
+    const recordsById = new Map(
+        records.map(record => [String(record.item.id), record])
+    );
+    const categoriesById = new Map(
+        records.map(record => [String(record.item.id), new Set()])
+    );
+
+    records.forEach(({ item }) => {
+        if (!item.shop_class) {
+            return;
+        }
+
+        addItemAndMaterialsToCategory(
+            String(item.id),
+            item.shop_class,
+            recordsById,
+            categoriesById,
+            new Set()
+        );
+    });
+
+    return categoriesById;
+}
+
+function addItemAndMaterialsToCategory(
+    itemId,
+    category,
+    recordsById,
+    categoriesById,
+    visited
+) {
+    if (visited.has(itemId)) {
+        return;
+    }
+
+    const record = recordsById.get(itemId);
+    if (!record) {
+        return;
+    }
+
+    visited.add(itemId);
+    categoriesById.get(itemId).add(category);
+
+    (record.item.from || []).forEach(sourceId => {
+        addItemAndMaterialsToCategory(
+            String(sourceId),
+            category,
+            recordsById,
+            categoriesById,
+            visited
+        );
     });
 }
 function normalizeSearchText(value) {
