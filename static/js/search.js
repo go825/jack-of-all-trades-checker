@@ -77,7 +77,7 @@ const searchableItems = Array.from(searchableItemCards).map(card => {
         normalizedSearchText: [item.name, ...aliases]
             .map(normalizeSearchText)
             .join(" "),
-        tags: item.tags || []
+        shopClass: item.shop_class || null
     };
 });
 
@@ -104,41 +104,13 @@ function applyItemFilters() {
     const query = normalizeSearchText(itemSearchInput.value);
     const category = selectedCategory;
 
-    searchableItems.forEach(({ card, normalizedSearchText, tags }) => {
+    searchableItems.forEach(({ card, normalizedSearchText, shopClass }) => {
         const matchesSearch = normalizedSearchText.includes(query);
-        const matchesCategory = itemMatchesCategory(tags, category);
+        const matchesCategory = category === "all" || shopClass === category;
 
         card.hidden = !matchesSearch || !matchesCategory;
     });
 }
-
-function itemMatchesCategory(tags, category) {
-    const hasTag = tag => tags.includes(tag);
-
-    switch (category) {
-        case "fighter":
-            return hasTag("Damage") && (
-                hasTag("Health") ||
-                hasTag("Armor") ||
-                hasTag("SpellBlock") ||
-                hasTag("AbilityHaste") ||
-                hasTag("LifeSteal")
-            );
-        case "marksman":
-            return hasTag("AttackSpeed") || hasTag("CriticalStrike") || hasTag("OnHit");
-        case "assassin":
-            return hasTag("Damage") && hasTag("ArmorPenetration");
-        case "mage":
-            return hasTag("SpellDamage");
-        case "tank":
-            return hasTag("Health") || hasTag("Armor") || hasTag("SpellBlock");
-        case "support":
-            return hasTag("ManaRegen") || hasTag("GoldPer") || hasTag("Vision") || hasTag("Aura");
-        default:
-            return true;
-    }
-}
-
 function normalizeSearchText(value) {
     return String(value || "")
         .normalize("NFKC")
