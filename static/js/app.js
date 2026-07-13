@@ -278,16 +278,7 @@ function renderBuild() {
         slot.appendChild(img);
     });
 
-    updateJackOfAllTrades();
-}
-
-function updateJackOfAllTrades() {
-    const jackStats = calculateJackStats(build);
-
-    renderStack(jackStats.length);
-    renderStatus(jackStats);
-
-    console.log("何でも屋ステータス:", jackStats);
+    updateJackOfAllTrades(build);
 }
 
 function clearDropTargets() {
@@ -302,51 +293,3 @@ function saveCurrentBuildState() {
 }
 
 renderBuild();
-
-function renderStack(stackCount) {
-    const countElement = document.getElementById("stack-count");
-    const stackBoxes = document.querySelectorAll(".stack-box");
-
-    const cappedCount = Math.min(stackCount, 10);
-
-    countElement.textContent = `${cappedCount} / 10`;
-
-    stackBoxes.forEach((box, index) => {
-        if (index < cappedCount) {
-            box.classList.add("active");
-        } else {
-            box.classList.remove("active");
-        }
-    });
-}
-
-function renderStatus(acquiredStats) {
-    const acquiredList = document.getElementById("acquired-stats");
-    const missingList = document.getElementById("missing-stats");
-
-    acquiredList.innerHTML = "";
-    missingList.innerHTML = "";
-
-    JACK_STAT_LIST.forEach(stat => {
-        const isAcquired = acquiredStats.includes(stat);
-        const li = document.createElement("li");
-        const icon = document.createElement("img");
-        const label = document.createElement("span");
-
-        li.className = isAcquired ? "stat-item acquired" : "stat-item missing";
-        icon.className = "stat-icon";
-        icon.src = `/static/images/stats/${STAT_ICONS[stat]}`;
-        icon.alt = "";
-        icon.setAttribute("aria-hidden", "true");
-        label.textContent = stat;
-
-        li.appendChild(icon);
-        li.appendChild(label);
-
-        if (isAcquired) {
-            acquiredList.appendChild(li);
-        } else {
-            missingList.appendChild(li);
-        }
-    });
-}
