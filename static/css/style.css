@@ -387,3 +387,83 @@ gap:10px;
         height: 22px;
     }
 }
+.item-tooltip {
+    position: fixed;
+    z-index: 1000;
+    width: min(360px, calc(100vw - 32px));
+    padding: 14px;
+    border: 1px solid #8c7435;
+    background: linear-gradient(145deg, #071421, #0c1b2a);
+    color: #d8d5c5;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.65);
+    pointer-events: none;
+    line-height: 1.45;
+}
+
+.item-tooltip[hidden] {
+    display: none;
+}
+
+.item-tooltip-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #263a4c;
+}
+
+.item-tooltip-header img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--gold);
+}
+
+.item-tooltip-name {
+    color: var(--gold-light);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.item-tooltip-price {
+    margin-top: 3px;
+    color: #d6b75d;
+    font-size: 13px;
+}
+
+.item-tooltip-description {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.item-tooltip-description stats {
+    display: block;
+    color: #d8d5c5;
+}
+
+.item-tooltip-description attention,
+.item-tooltip-description active {
+    color: #f0d48a;
+}
+
+.item-tooltip-description passive,
+.item-tooltip-description status,
+.item-tooltip-description rules {
+    color: #9aa4b2;
+}
+
+.item-tooltip-description magicdamage {
+    color: #7aa7ff;
+}
+
+.item-tooltip-description physicaldamage {
+    color: #e69a61;
+}
+
+.item-tooltip-description truedamage {
+    color: #f5f0dc;
+}
+
+.item-tooltip-description healing,
+.item-tooltip-description shield {
+    color: #73c990;
+}
