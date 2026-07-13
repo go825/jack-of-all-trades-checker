@@ -19,7 +19,8 @@
     "image": {
       "full": "1001.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1001.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1004",
@@ -39,7 +40,8 @@
     "image": {
       "full": "1004.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1004.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1006",
@@ -59,7 +61,8 @@
     "image": {
       "full": "1006.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1006.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "1011",
@@ -81,7 +84,8 @@
     "image": {
       "full": "1011.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1011.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1018",
@@ -103,7 +107,8 @@
     "image": {
       "full": "1018.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1018.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1026",
@@ -125,7 +130,8 @@
     "image": {
       "full": "1026.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1026.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "1027",
@@ -147,7 +153,8 @@
     "image": {
       "full": "1027.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1027.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1028",
@@ -169,7 +176,8 @@
     "image": {
       "full": "1028.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1028.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1029",
@@ -191,7 +199,8 @@
     "image": {
       "full": "1029.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1029.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1031",
@@ -213,7 +222,8 @@
     "image": {
       "full": "1031.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1031.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1033",
@@ -235,7 +245,8 @@
     "image": {
       "full": "1033.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1033.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1036",
@@ -258,7 +269,8 @@
     "image": {
       "full": "1036.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1036.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1037",
@@ -280,7 +292,8 @@
     "image": {
       "full": "1037.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1037.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1038",
@@ -302,7 +315,8 @@
     "image": {
       "full": "1038.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1038.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "1042",
@@ -324,7 +338,8 @@
     "image": {
       "full": "1042.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1042.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1043",
@@ -347,7 +362,8 @@
     "image": {
       "full": "1043.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1043.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1052",
@@ -369,7 +385,8 @@
     "image": {
       "full": "1052.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1052.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "1053",
@@ -393,7 +410,8 @@
     "image": {
       "full": "1053.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1053.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "1054",
@@ -418,7 +436,8 @@
     "image": {
       "full": "1054.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1054.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1055",
@@ -445,7 +464,8 @@
     "image": {
       "full": "1055.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1055.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "1056",
@@ -471,7 +491,8 @@
     "image": {
       "full": "1056.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1056.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "1057",
@@ -493,7 +514,8 @@
     "image": {
       "full": "1057.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1057.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "1058",
@@ -515,7 +537,8 @@
     "image": {
       "full": "1058.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1058.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "1082",
@@ -540,7 +563,8 @@
     "image": {
       "full": "1082.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1082.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "1083",
@@ -564,7 +588,8 @@
     "image": {
       "full": "1083.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1083.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "1086",
@@ -590,7 +615,8 @@
     "image": {
       "full": "1086.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1086.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1105",
@@ -610,7 +636,8 @@
     "image": {
       "full": "1105.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1105.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1106",
@@ -630,7 +657,8 @@
     "image": {
       "full": "1106.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1106.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1107",
@@ -650,7 +678,8 @@
     "image": {
       "full": "1107.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1107.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "1120",
@@ -677,7 +706,8 @@
     "image": {
       "full": "1120.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1120.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2003",
@@ -700,7 +730,8 @@
     "image": {
       "full": "2003.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2003.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2019",
@@ -724,7 +755,8 @@
     "image": {
       "full": "2019.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2019.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2020",
@@ -748,7 +780,8 @@
     "image": {
       "full": "2020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2020.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2021",
@@ -772,7 +805,8 @@
     "image": {
       "full": "2021.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2021.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2022",
@@ -792,7 +826,8 @@
     "image": {
       "full": "2022.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2022.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2031",
@@ -816,7 +851,8 @@
     "image": {
       "full": "2031.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2031.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2051",
@@ -841,7 +877,8 @@
     "image": {
       "full": "2051.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2051.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2055",
@@ -864,7 +901,8 @@
     "image": {
       "full": "2055.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2055.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2065",
@@ -892,7 +930,8 @@
     "image": {
       "full": "2065.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2065.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "2138",
@@ -915,7 +954,8 @@
     "image": {
       "full": "2138.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2138.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2139",
@@ -937,7 +977,8 @@
     "image": {
       "full": "2139.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2139.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2140",
@@ -960,7 +1001,8 @@
     "image": {
       "full": "2140.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2140.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2141",
@@ -981,7 +1023,8 @@
     "image": {
       "full": "2141.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2141.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2420",
@@ -1006,7 +1049,8 @@
     "image": {
       "full": "2420.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2420.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "2421",
@@ -1027,7 +1071,8 @@
     "image": {
       "full": "2421.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2421.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2501",
@@ -1051,7 +1096,8 @@
     "image": {
       "full": "2501.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2501.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2502",
@@ -1077,7 +1123,8 @@
     "image": {
       "full": "2502.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2502.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2503",
@@ -1103,7 +1150,8 @@
     "image": {
       "full": "2503.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2503.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2504",
@@ -1128,7 +1176,8 @@
     "image": {
       "full": "2504.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2504.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2508",
@@ -1150,7 +1199,8 @@
     "image": {
       "full": "2508.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2508.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2510",
@@ -1178,7 +1228,8 @@
     "image": {
       "full": "2510.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2510.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2512",
@@ -1205,7 +1256,8 @@
     "image": {
       "full": "2512.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2512.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2517",
@@ -1231,7 +1283,8 @@
     "image": {
       "full": "2517.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2517.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2520",
@@ -1255,7 +1308,8 @@
     "image": {
       "full": "2520.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2520.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2522",
@@ -1280,7 +1334,8 @@
     "image": {
       "full": "2522.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2522.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2523",
@@ -1304,7 +1359,8 @@
     "image": {
       "full": "2523.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2523.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2524",
@@ -1333,7 +1389,8 @@
     "image": {
       "full": "2524.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2524.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2525",
@@ -1358,7 +1415,8 @@
     "image": {
       "full": "2525.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2525.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "2526",
@@ -1383,7 +1441,8 @@
     "image": {
       "full": "2526.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2526.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3003",
@@ -1408,7 +1467,8 @@
     "image": {
       "full": "3003.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3003.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3004",
@@ -1435,7 +1495,8 @@
     "image": {
       "full": "3004.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3004.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3006",
@@ -1459,7 +1520,8 @@
     "image": {
       "full": "3006.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3006.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3008",
@@ -1483,7 +1545,8 @@
     "image": {
       "full": "3008.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3008.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3009",
@@ -1505,7 +1568,8 @@
     "image": {
       "full": "3009.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3009.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3020",
@@ -1528,7 +1592,8 @@
     "image": {
       "full": "3020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3020.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3024",
@@ -1554,7 +1619,8 @@
     "image": {
       "full": "3024.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3024.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3026",
@@ -1578,7 +1644,8 @@
     "image": {
       "full": "3026.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3026.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3031",
@@ -1602,7 +1669,8 @@
     "image": {
       "full": "3031.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3031.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3032",
@@ -1627,7 +1695,8 @@
     "image": {
       "full": "3032.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3032.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3033",
@@ -1652,7 +1721,8 @@
     "image": {
       "full": "3033.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3033.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3035",
@@ -1675,7 +1745,8 @@
     "image": {
       "full": "3035.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3035.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3036",
@@ -1700,7 +1771,8 @@
     "image": {
       "full": "3036.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3036.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3041",
@@ -1725,7 +1797,8 @@
     "image": {
       "full": "3041.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3041.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3044",
@@ -1750,7 +1823,8 @@
     "image": {
       "full": "3044.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3044.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3046",
@@ -1776,7 +1850,8 @@
     "image": {
       "full": "3046.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3046.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3047",
@@ -1800,7 +1875,8 @@
     "image": {
       "full": "3047.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3047.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3050",
@@ -1827,7 +1903,8 @@
     "image": {
       "full": "3050.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3050.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "3051",
@@ -1851,7 +1928,8 @@
     "image": {
       "full": "3051.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3051.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3053",
@@ -1875,7 +1953,8 @@
     "image": {
       "full": "3053.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3053.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3057",
@@ -1896,7 +1975,8 @@
     "image": {
       "full": "3057.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3057.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3065",
@@ -1923,7 +2003,8 @@
     "image": {
       "full": "3065.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3065.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3066",
@@ -1947,7 +2028,8 @@
     "image": {
       "full": "3066.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3066.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3067",
@@ -1971,7 +2053,8 @@
     "image": {
       "full": "3067.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3067.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3068",
@@ -1997,7 +2080,8 @@
     "image": {
       "full": "3068.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3068.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3070",
@@ -2020,7 +2104,8 @@
     "image": {
       "full": "3070.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3070.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3071",
@@ -2049,7 +2134,8 @@
     "image": {
       "full": "3071.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3071.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3072",
@@ -2073,7 +2159,8 @@
     "image": {
       "full": "3072.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3072.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3073",
@@ -2102,7 +2189,8 @@
     "image": {
       "full": "3073.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3073.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3074",
@@ -2129,7 +2217,8 @@
     "image": {
       "full": "3074.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3074.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3075",
@@ -2153,7 +2242,8 @@
     "image": {
       "full": "3075.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3075.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3076",
@@ -2175,7 +2265,8 @@
     "image": {
       "full": "3076.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3076.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3077",
@@ -2198,7 +2289,8 @@
     "image": {
       "full": "3077.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3077.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3078",
@@ -2228,7 +2320,8 @@
     "image": {
       "full": "3078.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3078.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3082",
@@ -2250,7 +2343,8 @@
     "image": {
       "full": "3082.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3082.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3083",
@@ -2273,7 +2367,8 @@
     "image": {
       "full": "3083.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3083.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3084",
@@ -2296,7 +2391,8 @@
     "image": {
       "full": "3084.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3084.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3085",
@@ -2323,7 +2419,8 @@
     "image": {
       "full": "3085.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3085.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3086",
@@ -2349,7 +2446,8 @@
     "image": {
       "full": "3086.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3086.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3087",
@@ -2378,7 +2476,8 @@
     "image": {
       "full": "3087.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3087.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3089",
@@ -2400,7 +2499,8 @@
     "image": {
       "full": "3089.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3089.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3091",
@@ -2426,7 +2526,8 @@
     "image": {
       "full": "3091.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3091.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3094",
@@ -2452,7 +2553,8 @@
     "image": {
       "full": "3094.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3094.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3097",
@@ -2479,7 +2581,8 @@
     "image": {
       "full": "3097.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3097.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3100",
@@ -2505,7 +2608,8 @@
     "image": {
       "full": "3100.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3100.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3102",
@@ -2529,7 +2633,8 @@
     "image": {
       "full": "3102.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3102.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3107",
@@ -2554,7 +2659,8 @@
     "image": {
       "full": "3107.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3107.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "3108",
@@ -2578,7 +2684,8 @@
     "image": {
       "full": "3108.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3108.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3109",
@@ -2607,7 +2714,8 @@
     "image": {
       "full": "3109.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3109.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3110",
@@ -2634,7 +2742,8 @@
     "image": {
       "full": "3110.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3110.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3111",
@@ -2659,7 +2768,8 @@
     "image": {
       "full": "3111.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3111.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3112",
@@ -2685,7 +2795,8 @@
     "image": {
       "full": "3112.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3112.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3113",
@@ -2709,7 +2820,8 @@
     "image": {
       "full": "3113.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3113.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3114",
@@ -2729,7 +2841,8 @@
     "image": {
       "full": "3114.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3114.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3115",
@@ -2755,7 +2868,8 @@
     "image": {
       "full": "3115.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3115.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3116",
@@ -2780,7 +2894,8 @@
     "image": {
       "full": "3116.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3116.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3118",
@@ -2805,7 +2920,8 @@
     "image": {
       "full": "3118.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3118.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3119",
@@ -2830,7 +2946,8 @@
     "image": {
       "full": "3119.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3119.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3123",
@@ -2852,7 +2969,8 @@
     "image": {
       "full": "3123.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3123.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3124",
@@ -2879,7 +2997,8 @@
     "image": {
       "full": "3124.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3124.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3133",
@@ -2903,7 +3022,8 @@
     "image": {
       "full": "3133.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3133.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3134",
@@ -2926,7 +3046,8 @@
     "image": {
       "full": "3134.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3134.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "3135",
@@ -2949,7 +3070,8 @@
     "image": {
       "full": "3135.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3135.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3137",
@@ -2973,7 +3095,8 @@
     "image": {
       "full": "3137.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3137.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3139",
@@ -3002,7 +3125,8 @@
     "image": {
       "full": "3139.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3139.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3140",
@@ -3025,7 +3149,8 @@
     "image": {
       "full": "3140.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3140.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3142",
@@ -3051,7 +3176,8 @@
     "image": {
       "full": "3142.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3142.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "3143",
@@ -3077,7 +3203,8 @@
     "image": {
       "full": "3143.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3143.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3144",
@@ -3099,7 +3226,8 @@
     "image": {
       "full": "3144.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3144.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3145",
@@ -3121,7 +3249,8 @@
     "image": {
       "full": "3145.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3145.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3146",
@@ -3148,7 +3277,8 @@
     "image": {
       "full": "3146.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3146.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3147",
@@ -3172,7 +3302,8 @@
     "image": {
       "full": "3147.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3147.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3152",
@@ -3200,7 +3331,8 @@
     "image": {
       "full": "3152.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3152.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3153",
@@ -3228,7 +3360,8 @@
     "image": {
       "full": "3153.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3153.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3155",
@@ -3252,7 +3385,8 @@
     "image": {
       "full": "3155.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3155.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3156",
@@ -3279,7 +3413,8 @@
     "image": {
       "full": "3156.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3156.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3157",
@@ -3304,7 +3439,8 @@
     "image": {
       "full": "3157.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3157.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3158",
@@ -3327,7 +3463,8 @@
     "image": {
       "full": "3158.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3158.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3161",
@@ -3352,7 +3489,8 @@
     "image": {
       "full": "3161.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3161.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3165",
@@ -3378,7 +3516,8 @@
     "image": {
       "full": "3165.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3165.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3168",
@@ -3402,7 +3541,8 @@
     "image": {
       "full": "3168.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3168.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3170",
@@ -3424,7 +3564,8 @@
     "image": {
       "full": "3170.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3170.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3171",
@@ -3447,7 +3588,8 @@
     "image": {
       "full": "3171.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3171.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3172",
@@ -3473,7 +3615,8 @@
     "image": {
       "full": "3172.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3172.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3173",
@@ -3499,7 +3642,8 @@
     "image": {
       "full": "3173.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3173.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3174",
@@ -3523,7 +3667,8 @@
     "image": {
       "full": "3174.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3174.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3175",
@@ -3546,7 +3691,8 @@
     "image": {
       "full": "3175.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3175.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3177",
@@ -3572,7 +3718,8 @@
     "image": {
       "full": "3177.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3177.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3179",
@@ -3598,7 +3745,8 @@
     "image": {
       "full": "3179.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3179.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "3181",
@@ -3624,7 +3772,8 @@
     "image": {
       "full": "3181.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3181.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3184",
@@ -3651,7 +3800,8 @@
     "image": {
       "full": "3184.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3184.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3190",
@@ -3681,7 +3831,8 @@
     "image": {
       "full": "3190.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3190.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "3211",
@@ -3706,7 +3857,8 @@
     "image": {
       "full": "3211.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3211.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "322065",
@@ -3734,7 +3886,8 @@
     "image": {
       "full": "322065.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/322065.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3222",
@@ -3761,7 +3914,8 @@
     "image": {
       "full": "3222.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3222.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "322526",
@@ -3786,7 +3940,8 @@
     "image": {
       "full": "322526.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/322526.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "323003",
@@ -3811,7 +3966,8 @@
     "image": {
       "full": "323003.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323003.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "323004",
@@ -3838,7 +3994,8 @@
     "image": {
       "full": "323004.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323004.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "323050",
@@ -3865,7 +4022,8 @@
     "image": {
       "full": "323050.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323050.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "323070",
@@ -3888,7 +4046,8 @@
     "image": {
       "full": "323070.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323070.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "323075",
@@ -3912,7 +4071,8 @@
     "image": {
       "full": "323075.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323075.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "323107",
@@ -3938,7 +4098,8 @@
     "image": {
       "full": "323107.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323107.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "323109",
@@ -3967,7 +4128,8 @@
     "image": {
       "full": "323109.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323109.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "323110",
@@ -3994,7 +4156,8 @@
     "image": {
       "full": "323110.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323110.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "323119",
@@ -4019,7 +4182,8 @@
     "image": {
       "full": "323119.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323119.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "323190",
@@ -4049,7 +4213,8 @@
     "image": {
       "full": "323190.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323190.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "323222",
@@ -4076,7 +4241,8 @@
     "image": {
       "full": "323222.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323222.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "323504",
@@ -4102,7 +4268,8 @@
     "image": {
       "full": "323504.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323504.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "324005",
@@ -4127,7 +4294,8 @@
     "image": {
       "full": "324005.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/324005.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "326616",
@@ -4152,7 +4320,8 @@
     "image": {
       "full": "326616.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326616.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "326617",
@@ -4179,7 +4348,8 @@
     "image": {
       "full": "326617.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326617.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "326620",
@@ -4206,7 +4376,8 @@
     "image": {
       "full": "326620.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326620.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "326621",
@@ -4229,7 +4400,8 @@
     "image": {
       "full": "326621.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326621.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "326657",
@@ -4257,7 +4429,8 @@
     "image": {
       "full": "326657.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326657.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "328020",
@@ -4284,7 +4457,8 @@
     "image": {
       "full": "328020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/328020.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3302",
@@ -4311,7 +4485,8 @@
     "image": {
       "full": "3302.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3302.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3504",
@@ -4337,7 +4512,8 @@
     "image": {
       "full": "3504.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3504.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "3508",
@@ -4365,7 +4541,8 @@
     "image": {
       "full": "3508.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3508.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "3742",
@@ -4392,7 +4569,8 @@
     "image": {
       "full": "3742.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3742.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3748",
@@ -4418,7 +4596,8 @@
     "image": {
       "full": "3748.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3748.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "3801",
@@ -4441,7 +4620,8 @@
     "image": {
       "full": "3801.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3801.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "3802",
@@ -4468,7 +4648,8 @@
     "image": {
       "full": "3802.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3802.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3803",
@@ -4494,7 +4675,8 @@
     "image": {
       "full": "3803.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3803.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "3814",
@@ -4519,7 +4701,8 @@
     "image": {
       "full": "3814.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3814.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "3865",
@@ -4545,7 +4728,8 @@
     "image": {
       "full": "3865.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3865.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3869",
@@ -4572,7 +4756,8 @@
     "image": {
       "full": "3869.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3869.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3870",
@@ -4599,7 +4784,8 @@
     "image": {
       "full": "3870.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3870.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3871",
@@ -4626,7 +4812,8 @@
     "image": {
       "full": "3871.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3871.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3876",
@@ -4653,7 +4840,8 @@
     "image": {
       "full": "3876.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3876.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3877",
@@ -4680,7 +4868,8 @@
     "image": {
       "full": "3877.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3877.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "3916",
@@ -4702,7 +4891,8 @@
     "image": {
       "full": "3916.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3916.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "4005",
@@ -4727,7 +4917,8 @@
     "image": {
       "full": "4005.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4005.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "4401",
@@ -4753,7 +4944,8 @@
     "image": {
       "full": "4401.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4401.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "4628",
@@ -4776,7 +4968,8 @@
     "image": {
       "full": "4628.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4628.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "4629",
@@ -4803,7 +4996,8 @@
     "image": {
       "full": "4629.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4629.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "4630",
@@ -4826,7 +5020,8 @@
     "image": {
       "full": "4630.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4630.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "4632",
@@ -4850,7 +5045,8 @@
     "image": {
       "full": "4632.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4632.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "4633",
@@ -4876,7 +5072,8 @@
     "image": {
       "full": "4633.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4633.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "4642",
@@ -4901,7 +5098,8 @@
     "image": {
       "full": "4642.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4642.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "4645",
@@ -4924,7 +5122,8 @@
     "image": {
       "full": "4645.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4645.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "4646",
@@ -4950,7 +5149,8 @@
     "image": {
       "full": "4646.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4646.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6333",
@@ -4975,7 +5175,8 @@
     "image": {
       "full": "6333.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6333.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "6609",
@@ -5001,7 +5202,8 @@
     "image": {
       "full": "6609.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6609.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "6610",
@@ -5027,7 +5229,8 @@
     "image": {
       "full": "6610.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6610.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6616",
@@ -5052,7 +5255,8 @@
     "image": {
       "full": "6616.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6616.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "6617",
@@ -5079,7 +5283,8 @@
     "image": {
       "full": "6617.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6617.png"
-    }
+    },
+    "shop_class": "support"
   },
   {
     "id": "6620",
@@ -5106,7 +5311,8 @@
     "image": {
       "full": "6620.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6620.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6621",
@@ -5129,7 +5335,8 @@
     "image": {
       "full": "6621.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6621.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "663039",
@@ -5154,7 +5361,8 @@
     "image": {
       "full": "663039.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663039.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "663056",
@@ -5180,7 +5388,8 @@
     "image": {
       "full": "663056.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663056.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "663058",
@@ -5204,7 +5413,8 @@
     "image": {
       "full": "663058.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663058.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "663059",
@@ -5228,7 +5438,8 @@
     "image": {
       "full": "663059.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663059.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "663060",
@@ -5252,7 +5463,8 @@
     "image": {
       "full": "663060.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663060.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "6631",
@@ -5279,7 +5491,8 @@
     "image": {
       "full": "6631.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6631.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "663146",
@@ -5306,7 +5519,8 @@
     "image": {
       "full": "663146.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663146.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "663172",
@@ -5333,7 +5547,8 @@
     "image": {
       "full": "663172.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663172.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "663193",
@@ -5361,7 +5576,8 @@
     "image": {
       "full": "663193.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663193.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "664011",
@@ -5388,7 +5604,8 @@
     "image": {
       "full": "664011.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/664011.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "664644",
@@ -5415,7 +5632,8 @@
     "image": {
       "full": "664644.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/664644.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6653",
@@ -5439,7 +5657,8 @@
     "image": {
       "full": "6653.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6653.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "6655",
@@ -5465,7 +5684,8 @@
     "image": {
       "full": "6655.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6655.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "6657",
@@ -5493,7 +5713,8 @@
     "image": {
       "full": "6657.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6657.png"
-    }
+    },
+    "shop_class": "mage"
   },
   {
     "id": "6660",
@@ -5516,7 +5737,8 @@
     "image": {
       "full": "6660.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6660.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "6662",
@@ -5544,7 +5766,8 @@
     "image": {
       "full": "6662.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6662.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "6664",
@@ -5572,7 +5795,8 @@
     "image": {
       "full": "6664.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6664.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6665",
@@ -5599,7 +5823,8 @@
     "image": {
       "full": "6665.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6665.png"
-    }
+    },
+    "shop_class": "tank"
   },
   {
     "id": "6670",
@@ -5623,7 +5848,8 @@
     "image": {
       "full": "6670.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6670.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "667109",
@@ -5649,7 +5875,8 @@
     "image": {
       "full": "667109.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667109.png"
-    }
+    },
+    "shop_class": "fighter"
   },
   {
     "id": "667112",
@@ -5674,7 +5901,8 @@
     "image": {
       "full": "667112.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667112.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6672",
@@ -5701,7 +5929,8 @@
     "image": {
       "full": "6672.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6672.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "6673",
@@ -5725,7 +5954,8 @@
     "image": {
       "full": "6673.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6673.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "6675",
@@ -5751,7 +5981,8 @@
     "image": {
       "full": "6675.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6675.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6676",
@@ -5776,7 +6007,8 @@
     "image": {
       "full": "6676.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6676.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "667666",
@@ -5801,7 +6033,8 @@
     "image": {
       "full": "667666.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667666.png"
-    }
+    },
+    "shop_class": "marksman"
   },
   {
     "id": "6690",
@@ -5825,7 +6058,8 @@
     "image": {
       "full": "6690.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6690.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6692",
@@ -5849,7 +6083,8 @@
     "image": {
       "full": "6692.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6692.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "6694",
@@ -5874,7 +6109,8 @@
     "image": {
       "full": "6694.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6694.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "6695",
@@ -5897,7 +6133,8 @@
     "image": {
       "full": "6695.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6695.png"
-    }
+    },
+    "shop_class": "assassin"
   },
   {
     "id": "6696",
@@ -5921,7 +6158,8 @@
     "image": {
       "full": "6696.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6696.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6697",
@@ -5947,7 +6185,8 @@
     "image": {
       "full": "6697.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6697.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6698",
@@ -5973,7 +6212,8 @@
     "image": {
       "full": "6698.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6698.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "6699",
@@ -5999,7 +6239,8 @@
     "image": {
       "full": "6699.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6699.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "8010",
@@ -6025,7 +6266,8 @@
     "image": {
       "full": "8010.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/8010.png"
-    }
+    },
+    "shop_class": null
   },
   {
     "id": "8020",
@@ -6052,6 +6294,7 @@
     "image": {
       "full": "8020.png",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/8020.png"
-    }
+    },
+    "shop_class": "tank"
   }
 ]
