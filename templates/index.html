@@ -15,7 +15,10 @@
             <h1>Jack of All Trades Checker</h1>
             <p>League of Legends「何でも屋」スタック確認ツール</p>
         </div>
-        <div class="patch">Patch {{ patch }}</div>
+        <div class="header-actions">
+            <button class="help-button" type="button" aria-haspopup="dialog">使い方</button>
+            <div class="patch">Patch {{ patch }}</div>
+        </div>
     </header>
 
     <div class="toast">開発中</div>
@@ -154,6 +157,20 @@
 
 </div>
 
+<dialog class="help-dialog" aria-labelledby="help-title">
+    <div class="help-dialog-header">
+        <h2 id="help-title">使い方</h2>
+        <button class="help-close-button" type="button" aria-label="使い方を閉じる">×</button>
+    </div>
+    <ol class="help-steps">
+        <li><strong>ロールを選ぶ</strong><span>TOP・JG・MID・ADC・SUPから使用するロールを選択します。</span></li>
+        <li><strong>アイテムを追加する</strong><span>一覧のアイテムをクリックするとBuildへ追加されます。検索とクラス絞り込みも使えます。</span></li>
+        <li><strong>Buildを調整する</strong><span>ドラッグで並べ替え、Build内のアイテムをクリックして削除できます。</span></li>
+        <li><strong>スタックを確認する</strong><span>何でも屋のスタックと、取得済み・未取得ステータスが自動更新されます。</span></li>
+        <li><strong>次回も続きから使う</strong><span>ロール別Buildはブラウザへ自動保存されます。</span></li>
+    </ol>
+    <p class="help-note">アイテムにカーソルを合わせると、能力・効果・合成ツリーを確認できます。</p>
+</dialog>
 <script src="{{ url_for('static', filename='js/stack.js') }}"></script>
 <script src="{{ url_for('static', filename='js/status.js') }}"></script>
 <script src="{{ url_for('static', filename='js/storage.js') }}"></script>
@@ -161,6 +178,7 @@
 <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 <script src="{{ url_for('static', filename='js/search.js') }}"></script>
 <script src="{{ url_for('static', filename='js/tooltip.js') }}"></script>
+<script src="{{ url_for('static', filename='js/help.js') }}"></script>
 
 </body>
 </html>

@@ -546,3 +546,105 @@ gap:10px;
     height: 13px;
     border-left: 1px solid #667789;
 }
+.header-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.help-button,
+.help-close-button {
+    color: var(--gold-light);
+    border: 1px solid var(--gold);
+    background: rgba(7, 17, 31, 0.8);
+    cursor: pointer;
+}
+
+.help-button {
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.help-button:hover,
+.help-button:focus-visible,
+.help-close-button:hover,
+.help-close-button:focus-visible {
+    background: rgba(200, 155, 60, 0.18);
+    outline: none;
+    box-shadow: 0 0 10px rgba(200, 155, 60, 0.35);
+}
+
+.help-dialog {
+    width: min(560px, calc(100vw - 32px));
+    padding: 0;
+    color: var(--text);
+    border: 1px solid var(--gold);
+    background: linear-gradient(145deg, #101a2b, #07111f);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.7);
+}
+
+.help-dialog::backdrop {
+    background: rgba(2, 8, 16, 0.78);
+}
+
+.help-dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.help-dialog-header h2 {
+    margin: 0;
+    color: var(--gold-light);
+    font-size: 21px;
+}
+
+.help-close-button {
+    width: 34px;
+    height: 34px;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.help-steps {
+    margin: 0;
+    padding: 20px 24px 10px 48px;
+}
+
+.help-steps li {
+    margin-bottom: 14px;
+    padding-left: 4px;
+    color: var(--gold-light);
+}
+
+.help-steps strong,
+.help-steps span {
+    display: block;
+}
+
+.help-steps span {
+    margin-top: 3px;
+    color: #c8c5b5;
+    line-height: 1.5;
+}
+
+.help-note {
+    margin: 0 20px 20px;
+    padding: 12px;
+    color: #c8c5b5;
+    border: 1px solid var(--border);
+    background: rgba(22, 36, 58, 0.65);
+    line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+    .header-actions {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
