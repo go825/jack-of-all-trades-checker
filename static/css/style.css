@@ -127,10 +127,14 @@ body {
 
 .build-grid {
     display: grid;
-    grid-template-columns: repeat(4, 64px);
+    grid-template-columns: repeat(3, 64px);
     gap: 14px;
     justify-content: center;
     margin-top: 18px;
+}
+
+.build-grid.has-special-slot {
+    grid-template-columns: repeat(4, 64px);
 }
 
 .item-slot {
@@ -149,12 +153,24 @@ body {
     transition:.2s;
 }
 
+.build-grid.has-special-slot .item-slot:nth-child(n + 4):nth-child(-n + 6) {
+    order: 2;
+}
+
+.build-grid.has-special-slot .item-slot:nth-child(7) {
+    order: 1;
+}
+.item-slot[hidden] {
+    display: none;
+}
+
 .item-slot:hover{
     border-color:var(--gold);
     box-shadow:0 0 10px rgba(200,155,60,.45);
 }
 
-.boot-slot {
+.boot-slot,
+.support-slot {
     border-color: var(--gold);
 }
 

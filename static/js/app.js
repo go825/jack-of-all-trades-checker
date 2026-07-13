@@ -1,23 +1,71 @@
-const build = new Array(7).fill(null);
+const roleBuilds = {
+    top: new Array(6).fill(null),
+    jungle: new Array(6).fill(null),
+    mid: new Array(6).fill(null),
+    adc: new Array(7).fill(null),
+    support: new Array(7).fill(null)
+};
 
+const SUPPORT_ITEM_IDS = new Set([
+    "3865",
+    "3869",
+    "3870",
+    "3871",
+    "3876",
+    "3877"
+]);
+
+let activeRole = "adc";
+let build = roleBuilds[activeRole];
+
+const buildGrid = document.querySelector(".build-grid");
 const slots = document.querySelectorAll(".item-slot");
 const items = document.querySelectorAll(".item-card");
+const roleButtons = document.querySelectorAll(".role-tabs button");
 
 let draggedIndex = null;
 
+roleButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        activeRole = button.dataset.role;
+        build = roleBuilds[activeRole];
+        draggedIndex = null;
+
+        roleButtons.forEach(roleButton => {
+            roleButton.classList.toggle("active", roleButton === button);
+        });
+
+        clearDropTargets();
+        renderBuild();
+    });
+});
+
 items.forEach(card => {
     card.addEventListener("click", () => {
-        const firstEmpty = build.findIndex(slot => slot === null);
+        const item = JSON.parse(card.dataset.item);
 
-        if (firstEmpty === -1) {
-            alert("Buildがいっぱいです");
+        if (isBootItem(item) && build.some(buildItem => isBootItem(buildItem))) {
+            alert("このアイテムは複数積めません");
             return;
         }
 
-        const item = JSON.parse(card.dataset.item);
+        if (isSupportItem(item) && activeRole !== "support") {
+            alert("supアイテムはsupしか積めません");
+            return;
+        }
 
-        build[firstEmpty] = item;
+        const targetIndex = findItemTargetIndex(item);
 
+        if (targetIndex === -1) {
+            const message = isSpecialRoleItem(item)
+                ? "このアイテムは複数積めません"
+                : "Buildがいっぱいです";
+
+            alert(message);
+            return;
+        }
+
+        build[targetIndex] = item;
         renderBuild();
     });
 });
@@ -77,9 +125,19 @@ slots.forEach(slot => {
             return;
         }
 
-        const temp = build[targetIndex];
-        build[targetIndex] = build[draggedIndex];
-        build[draggedIndex] = temp;
+        const draggedItem = build[draggedIndex];
+        const targetItem = build[targetIndex];
+
+        if (
+            !isItemAllowedInSlot(draggedItem, targetIndex) ||
+            !isItemAllowedInSlot(targetItem, draggedIndex)
+        ) {
+            clearDropTargets();
+            return;
+        }
+
+        build[targetIndex] = draggedItem;
+        build[draggedIndex] = targetItem;
 
         draggedIndex = null;
         clearDropTargets();
@@ -87,10 +145,105 @@ slots.forEach(slot => {
     });
 });
 
+function findItemTargetIndex(item) {
+    const specialSlotIndex = getSpecialSlotIndex();
+
+    if (isSpecialRoleItem(item)) {
+        return build[specialSlotIndex] === null ? specialSlotIndex : -1;
+    }
+
+    const regularSlotCount = getRegularSlotCount();
+
+    return build.slice(0, regularSlotCount).findIndex(slot => slot === null);
+}
+
+function getSpecialSlotIndex() {
+    if (activeRole === "adc") {
+        return 6;
+    }
+
+    if (activeRole === "support") {
+        return 6;
+    }
+
+    return -1;
+}
+
+function getRegularSlotCount() {
+    if (activeRole === "adc") {
+        return 6;
+    }
+
+    if (activeRole === "support") {
+        return 5;
+    }
+
+    return build.length;
+}
+
+function isSpecialRoleItem(item) {
+    if (!item) {
+        return false;
+    }
+
+    if (activeRole === "adc") {
+        return isBootItem(item);
+    }
+
+    if (activeRole === "support") {
+        return isSupportItem(item);
+    }
+
+    return false;
+}
+
+function isBootItem(item) {
+    return item !== null && (item.tags || []).includes("Boots");
+}
+function isSupportItem(item) {
+    return item !== null && SUPPORT_ITEM_IDS.has(String(item.id));
+}
+
+function isItemAllowedInSlot(item, slotIndex) {
+    if (item === null) {
+        return true;
+    }
+
+    const specialSlotIndex = getSpecialSlotIndex();
+
+    if (specialSlotIndex === -1) {
+        return true;
+    }
+
+    return slotIndex === specialSlotIndex
+        ? isSpecialRoleItem(item)
+        : !isSpecialRoleItem(item);
+}
 function renderBuild() {
+    buildGrid.classList.toggle("has-special-slot", getSpecialSlotIndex() !== -1);
+
     slots.forEach((slot, index) => {
+        const isAvailable = index < build.length && !(
+            activeRole === "support" && index === 5
+        );
+
+        const isBootSlot = activeRole === "adc" && index === 6;
+        const isSupportSlot = activeRole === "support" && index === 6;
+
         slot.innerHTML = "";
-        slot.setAttribute("draggable", build[index] !== null);
+        slot.hidden = !isAvailable;
+        slot.classList.toggle("boot-slot", isBootSlot);
+        slot.classList.toggle("support-slot", isSupportSlot);
+        slot.title = isBootSlot
+            ? "ADC用ブーツ枠"
+            : isSupportSlot
+                ? "SUP用World Atlas系枠"
+                : "";
+        slot.setAttribute("draggable", isAvailable && build[index] !== null);
+
+        if (!isAvailable) {
+            return;
+        }
 
         const item = build[index];
 
