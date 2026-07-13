@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: jack-of-all-trades-checker
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn run:app
+    healthCheckPath: /health
+    autoDeployTrigger: commit
