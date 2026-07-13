@@ -10,7 +10,7 @@ const TOOLTIP_ALLOWED_TAGS = new Set([
     "SHIELD", "SPEED", "STATUS", "RULES", "BR"
 ].map(tag => tag.toUpperCase()));
 
-items.forEach(card => {
+document.querySelectorAll(".item-card").forEach(card => {
     card.addEventListener("mouseenter", event => {
         const item = JSON.parse(card.dataset.item);
         renderItemTooltip(item);
