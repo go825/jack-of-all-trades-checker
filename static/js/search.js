@@ -114,6 +114,7 @@ function applyItemFilters() {
 
         card.hidden = !matchesSearch || !matchesCategory;
     });
+
 }
 
 function buildItemCategoryMap(records) {
