@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, Response, render_template
 from app.services.riot_api import get_latest_patch
 from app.services.item_service import get_all_items
 
@@ -26,6 +26,14 @@ def index():
 @app.route("/health")
 def health():
     return {"status": "ok"}
+
+
+@app.route("/riot.txt")
+def riot_verification():
+    return Response(
+        "967cfc001-8079-45d8-8f7c-c3f1a8a70dbb",
+        mimetype="text/plain",
+    )
 
 @app.route("/privacy")
 def privacy():
