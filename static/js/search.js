@@ -63,114 +63,113 @@ const ITEM_SEARCH_ALIASES = {
 };
 
 const itemSearchInput = document.getElementById("item-search");
-const classFilterButtons = document.querySelectorAll(".class-filter");
-let selectedCategory = "all";
+const missingStatFilterButton = document.getElementById("missing-stat-filter");
+const statFilters = document.getElementById("stat-filters");
+const itemList = document.querySelector(".item-list");
 const searchableItemCards = document.querySelectorAll(".item-card");
+const selectedStats = new Set();
+let showMissingStats = false;
 
-const searchableItemRecords = Array.from(searchableItemCards, card => ({
-    card,
-    item: JSON.parse(card.dataset.item)
-}));
-const itemCategories = buildItemCategoryMap(searchableItemRecords);
-
-const searchableItems = searchableItemRecords.map(({ card, item }) => {
+const searchableItems = Array.from(searchableItemCards, (card, originalIndex) => {
+    const item = JSON.parse(card.dataset.item);
     const aliases = ITEM_SEARCH_ALIASES[item.name] || [];
 
     return {
         card,
+        item,
+        originalIndex,
         normalizedSearchText: [item.name, ...aliases]
             .map(normalizeSearchText)
             .join(" "),
-        categories: itemCategories.get(String(item.id)) || new Set()
+        stats: new Set(calculateJackStats([item]))
     };
 });
 
+renderStatFilters();
 itemSearchInput.addEventListener("input", applyItemFilters);
 itemSearchInput.addEventListener("compositionend", applyItemFilters);
-
-classFilterButtons.forEach(button => {
-    button.addEventListener("click", () => {
-        const category = button.dataset.category;
-
-        selectedCategory = selectedCategory === category ? "all" : category;
-
-        classFilterButtons.forEach(filterButton => {
-            const isActive = filterButton.dataset.category === selectedCategory;
-            filterButton.classList.toggle("active", isActive);
-            filterButton.setAttribute("aria-pressed", String(isActive));
-        });
-
-        applyItemFilters();
-    });
+missingStatFilterButton.addEventListener("click", () => {
+    showMissingStats = !showMissingStats;
+    selectedStats.clear();
+    updateFilterButtons();
+    applyItemFilters();
 });
+document.addEventListener("jackstatschange", applyItemFilters);
+
+function renderStatFilters() {
+    JACK_STAT_LIST.forEach(stat => {
+        const button = document.createElement("button");
+        const icon = document.createElement("img");
+        const label = document.createElement("span");
+
+        button.className = "stat-filter";
+        button.type = "button";
+        button.dataset.stat = stat;
+        button.hidden = !searchableItems.some(({ stats }) => stats.has(stat));
+        button.setAttribute("aria-pressed", "false");
+        icon.src = `/static/images/stats/${STAT_ICONS[stat]}`;
+        icon.alt = "";
+        icon.setAttribute("aria-hidden", "true");
+        label.textContent = stat;
+        button.append(icon, label);
+        button.addEventListener("click", () => {
+            if (selectedStats.has(stat)) {
+                selectedStats.delete(stat);
+            } else {
+                selectedStats.add(stat);
+            }
+            showMissingStats = false;
+            updateFilterButtons();
+            applyItemFilters();
+        });
+        statFilters.appendChild(button);
+    });
+}
+
+function updateFilterButtons() {
+    missingStatFilterButton.classList.toggle("active", showMissingStats);
+    missingStatFilterButton.setAttribute("aria-pressed", String(showMissingStats));
+
+    statFilters.querySelectorAll(".stat-filter").forEach(button => {
+        const isActive = selectedStats.has(button.dataset.stat);
+        button.classList.toggle("active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+    });
+}
 
 function applyItemFilters() {
     const query = normalizeSearchText(itemSearchInput.value);
-    const category = selectedCategory;
+    const acquiredStats = new Set(window.currentJackStats || []);
 
-    searchableItems.forEach(({ card, normalizedSearchText, categories }) => {
+    searchableItems.forEach(({ card, normalizedSearchText, stats }) => {
         const matchesSearch = normalizedSearchText.includes(query);
-        const matchesCategory = category === "all" || categories.has(category);
+        const matchesSelectedStats = Array.from(selectedStats).every(stat => stats.has(stat));
+        const matchesMissingStats = !showMissingStats || Array.from(stats).some(
+            stat => !acquiredStats.has(stat)
+        );
 
-        card.hidden = !matchesSearch || !matchesCategory;
+        card.hidden = !matchesSearch || !matchesSelectedStats || !matchesMissingStats;
     });
 
+    sortItemCards();
 }
 
-function buildItemCategoryMap(records) {
-    const recordsById = new Map(
-        records.map(record => [String(record.item.id), record])
-    );
-    const categoriesById = new Map(
-        records.map(record => [String(record.item.id), new Set()])
-    );
-
-    records.forEach(({ item }) => {
-        if (!item.shop_class) {
-            return;
+function sortItemCards() {
+    const hasActiveFilter = normalizeSearchText(itemSearchInput.value) !== "" ||
+        selectedStats.size > 0 ||
+        showMissingStats;
+    const orderedItems = [...searchableItems].sort((left, right) => {
+        if (!hasActiveFilter) {
+            return left.originalIndex - right.originalIndex;
         }
 
-        addItemAndMaterialsToCategory(
-            String(item.id),
-            item.shop_class,
-            recordsById,
-            categoriesById,
-            new Set()
-        );
+        const priceDifference = (left.item.gold?.total || 0) - (right.item.gold?.total || 0);
+        return priceDifference || left.originalIndex - right.originalIndex;
     });
 
-    return categoriesById;
+    orderedItems.forEach(({ card }) => itemList.appendChild(card));
 }
 
-function addItemAndMaterialsToCategory(
-    itemId,
-    category,
-    recordsById,
-    categoriesById,
-    visited
-) {
-    if (visited.has(itemId)) {
-        return;
-    }
-
-    const record = recordsById.get(itemId);
-    if (!record) {
-        return;
-    }
-
-    visited.add(itemId);
-    categoriesById.get(itemId).add(category);
-
-    (record.item.from || []).forEach(sourceId => {
-        addItemAndMaterialsToCategory(
-            String(sourceId),
-            category,
-            recordsById,
-            categoriesById,
-            visited
-        );
-    });
-}
 function normalizeSearchText(value) {
     return String(value || "")
         .normalize("NFKC")

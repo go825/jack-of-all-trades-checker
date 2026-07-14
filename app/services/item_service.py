@@ -8,7 +8,12 @@ from app.services.riot_api import get_latest_patch
 
 
 CACHE_DIR = Path("cache")
-ITEM_CACHE_VERSION = 7
+ITEM_CACHE_VERSION = 8
+EXCLUDED_SHOP_ITEM_IDS = {
+    "2003",  # 体力ポーション
+    "2031",  # 詰め替えポーション
+    "2055",  # コントロール ワード
+}
 COMMUNITY_DRAGON_ITEMS_URL = (
     "https://raw.communitydragon.org/{patch}/plugins/"
     "rcp-be-lol-game-data/global/default/v1/items.json"
@@ -130,6 +135,8 @@ def filter_shop_items(raw_items, available_shop_ids=None):
         gold = item.get("gold", {})
         tags = item.get("tags", [])
 
+        if item_id in EXCLUDED_SHOP_ITEM_IDS:
+            continue
         if not maps.get("11", False):
             continue
         if not gold.get("purchasable", False):

@@ -305,41 +305,54 @@ body {
     border: 1px solid var(--border);
 }
 
-.class-filters {
+.stat-filters {
     display: flex;
-    gap: 4px;
+    flex-wrap: wrap;
+    gap: 6px;
     margin-bottom: 18px;
-    padding: 4px;
-    width: fit-content;
-    border: 1px solid #17313d;
-    background: #06151d;
 }
 
-.class-filter {
-    width: 72px;
-    height: 62px;
-    padding: 7px;
-    border: 1px solid transparent;
-    background: transparent;
+.stat-filter,
+.missing-stat-filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 38px;
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    background: #07111f;
     cursor: pointer;
     transition: 0.15s;
 }
 
-.class-filter img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 0.65;
+.missing-stat-filter {
+    margin-bottom: 10px;
+    color: var(--gold-light);
 }
 
-.class-filter:hover,
-.class-filter.active {
+.stat-filter img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    opacity: 0.7;
+}
+
+.stat-filter[hidden] {
+    display: none;
+}
+
+.stat-filter:hover,
+.stat-filter.active,
+.missing-stat-filter:hover,
+.missing-stat-filter.active {
     border-color: var(--gold);
     background: rgba(200, 155, 60, 0.12);
+    color: var(--gold-light);
 }
 
-.class-filter:hover img,
-.class-filter.active img {
+.stat-filter:hover img,
+.stat-filter.active img {
     opacity: 1;
     filter: drop-shadow(0 0 4px rgba(240, 212, 138, 0.6));
 }

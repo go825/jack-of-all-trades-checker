@@ -111,27 +111,11 @@
         <h2>検索</h2>
         <input id="item-search" type="search" placeholder="アイテム名で検索..." autocomplete="off">
 
-        <h2>クラス</h2>
-        <div class="class-filters" aria-label="アイテムクラス">
-            <button class="class-filter" type="button" data-category="fighter" title="ファイター" aria-label="ファイター">
-                <img src="{{ url_for('static', filename='images/classes/fighter.png') }}" alt="">
-            </button>
-            <button class="class-filter" type="button" data-category="marksman" title="マークスマン" aria-label="マークスマン">
-                <img src="{{ url_for('static', filename='images/classes/marksman.png') }}" alt="">
-            </button>
-            <button class="class-filter" type="button" data-category="assassin" title="アサシン" aria-label="アサシン">
-                <img src="{{ url_for('static', filename='images/classes/assassin.png') }}" alt="">
-            </button>
-            <button class="class-filter" type="button" data-category="mage" title="メイジ" aria-label="メイジ">
-                <img src="{{ url_for('static', filename='images/classes/mage.png') }}" alt="">
-            </button>
-            <button class="class-filter" type="button" data-category="tank" title="タンク" aria-label="タンク">
-                <img src="{{ url_for('static', filename='images/classes/tank.png') }}" alt="">
-            </button>
-            <button class="class-filter" type="button" data-category="support" title="サポート" aria-label="サポート">
-                <img src="{{ url_for('static', filename='images/classes/support.png') }}" alt="">
-            </button>
-        </div>
+        <h2>能力</h2>
+        <button id="missing-stat-filter" class="missing-stat-filter" type="button" aria-pressed="false">
+            未取得を補える
+        </button>
+        <div id="stat-filters" class="stat-filters" aria-label="何でも屋ステータス"></div>
     </section>
 
     <div class="item-list">
@@ -176,7 +160,7 @@
     </div>
     <ol class="help-steps">
         <li><strong>ロールを選ぶ</strong><span>TOP・JG・MID・ADC・SUPから使用するロールを選択します。</span></li>
-        <li><strong>アイテムを追加する</strong><span>一覧のアイテムをクリックするとビルドへ追加されます。検索とクラス絞り込みも使えます。</span></li>
+        <li><strong>アイテムを追加する</strong><span>一覧のアイテムをクリックするとビルドへ追加されます。検索と能力別の絞り込みも使えます。</span></li>
         <li><strong>ビルドを調整する</strong><span>ドラッグで並べ替え、ビルド内のアイテムをクリックして削除できます。</span></li>
         <li><strong>スタックを確認する</strong><span>何でも屋のスタックと、取得済み・未取得ステータスが自動更新されます。</span></li>
         <li><strong>次回も続きから使う</strong><span>ロール別ビルドはブラウザへ自動保存されます。</span></li>
