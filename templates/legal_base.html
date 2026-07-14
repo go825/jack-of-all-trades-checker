@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} | Jack of All Trades Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <main class="legal-page">
+        <a class="legal-page-back" href="{{ url_for('index') }}">← チェッカーへ戻る</a>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
