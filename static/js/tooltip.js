@@ -17,6 +17,9 @@ const tooltipItemsById = new Map(
         return [String(item.id), item];
     })
 );
+const MOBILE_TOOLTIP_DURATION = 5000;
+const mobileTooltipQuery = window.matchMedia("(hover: none), (pointer: coarse)");
+let mobileTooltipTimer = null;
 
 tooltipItemCards.forEach(card => {
     card.addEventListener("mouseenter", event => {
@@ -24,6 +27,7 @@ tooltipItemCards.forEach(card => {
         renderItemTooltip(item);
         tooltip.hidden = false;
         positionItemTooltip(event.clientX, event.clientY);
+        scheduleMobileTooltipHide();
     });
 
     card.addEventListener("mousemove", event => {
@@ -164,5 +168,16 @@ function positionItemTooltip(cursorX, cursorY) {
 }
 
 function hideItemTooltip() {
+    clearTimeout(mobileTooltipTimer);
+    mobileTooltipTimer = null;
     tooltip.hidden = true;
+}
+
+function scheduleMobileTooltipHide() {
+    clearTimeout(mobileTooltipTimer);
+    mobileTooltipTimer = null;
+
+    if (mobileTooltipQuery.matches) {
+        mobileTooltipTimer = setTimeout(hideItemTooltip, MOBILE_TOOLTIP_DURATION);
+    }
 }
