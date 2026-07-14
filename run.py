@@ -31,7 +31,7 @@ def health():
 @app.route("/riot.txt")
 def riot_verification():
     return Response(
-        "967cfc001-8079-45d8-8f7c-c3f1a8a70dbb",
+        "967cf001-8079-45d8-8f7c-c3f1a8a70dbb",
         mimetype="text/plain",
     )
 
