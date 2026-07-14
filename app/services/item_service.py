@@ -3,12 +3,19 @@ import re
 from pathlib import Path
 
 import requests
+from pykakasi import kakasi
 
 from app.services.riot_api import get_latest_patch
 
 
 CACHE_DIR = Path("cache")
-ITEM_CACHE_VERSION = 7
+ITEM_CACHE_VERSION = 9
+KAKASI = kakasi()
+EXCLUDED_SHOP_ITEM_IDS = {
+    "2003",  # 体力ポーション
+    "2031",  # 詰め替えポーション
+    "2055",  # コントロール ワード
+}
 COMMUNITY_DRAGON_ITEMS_URL = (
     "https://raw.communitydragon.org/{patch}/plugins/"
     "rcp-be-lol-game-data/global/default/v1/items.json"
@@ -117,6 +124,12 @@ def extract_shop_class(icon_path):
     return SHOP_CLASS_NAMES.get(match.group(1))
 
 
+def generate_search_aliases(name):
+    hiragana = "".join(part["hira"] for part in KAKASI.convert(name)).strip()
+    compact = re.sub(r"\s+", "", hiragana)
+    return list(dict.fromkeys(alias for alias in (hiragana, compact) if alias))
+
+
 def write_item_cache(item_cache_path, items):
     with item_cache_path.open("w", encoding="utf-8") as file:
         json.dump(items, file, ensure_ascii=False, indent=2)
@@ -130,6 +143,8 @@ def filter_shop_items(raw_items, available_shop_ids=None):
         gold = item.get("gold", {})
         tags = item.get("tags", [])
 
+        if item_id in EXCLUDED_SHOP_ITEM_IDS:
+            continue
         if not maps.get("11", False):
             continue
         if not gold.get("purchasable", False):
@@ -209,6 +224,7 @@ def normalize_items(items, patch, shop_classes=None):
                 "name": item.get("name", ""),
                 "description": item.get("description", ""),
                 "plaintext": item.get("plaintext", ""),
+                "search_aliases": generate_search_aliases(item.get("name", "")),
                 "gold": item.get("gold", {}),
                 "tags": item.get("tags", []),
                 "stats": item.get("stats", {}),

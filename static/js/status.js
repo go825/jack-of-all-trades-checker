@@ -1,8 +1,13 @@
 function updateJackOfAllTrades(build) {
     const jackStats = calculateJackStats(build);
 
+    window.currentJackStats = jackStats;
+
     renderStack(jackStats.length);
     renderStatus(jackStats);
+    document.dispatchEvent(new CustomEvent("jackstatschange", {
+        detail: { stats: jackStats }
+    }));
 
     console.log("何でも屋ステータス:", jackStats);
 }
