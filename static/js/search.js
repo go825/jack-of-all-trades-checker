@@ -72,7 +72,10 @@ let showMissingStats = false;
 
 const searchableItems = Array.from(searchableItemCards, (card, originalIndex) => {
     const item = JSON.parse(card.dataset.item);
-    const aliases = ITEM_SEARCH_ALIASES[item.name] || [];
+    const aliases = [
+        ...(item.search_aliases || []),
+        ...(ITEM_SEARCH_ALIASES[item.name] || [])
+    ];
 
     return {
         card,
