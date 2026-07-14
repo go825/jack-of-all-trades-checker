@@ -67,7 +67,7 @@ items.forEach(card => {
         if (targetIndex === -1) {
             const message = isSpecialRoleItem(item)
                 ? "このアイテムは複数積めません"
-                : "Buildがいっぱいです";
+                : "ビルドがいっぱいです";
 
             alert(message);
             return;
