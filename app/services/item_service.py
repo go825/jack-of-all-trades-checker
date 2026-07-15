@@ -1,5 +1,6 @@
 import json
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -9,7 +10,9 @@ from app.services.riot_api import get_latest_patch
 
 
 CACHE_DIR = Path("cache")
-ITEM_CACHE_VERSION = 9
+ITEM_CACHE_VERSION = 13
+FALLBACK_CACHE_RETRY_SECONDS = 30 * 60
+MAX_ITEM_COUNT_CHANGE = 10
 KAKASI = kakasi()
 EXCLUDED_SHOP_ITEM_IDS = {
     "2003",  # 体力ポーション
@@ -44,16 +47,57 @@ def get_all_items():
         with item_cache_path.open("r", encoding="utf-8") as file:
             cached_items = json.load(file)
 
-        if all(
+        cache_is_current = cached_items and all(
             item.get("cache_version") == ITEM_CACHE_VERSION
             for item in cached_items
+        )
+        cache_source = (
+            cached_items[0].get("shop_metadata_source")
+            if cached_items
+            else None
+        )
+        fallback_cache_is_fresh = (
+            cache_source == "fallback"
+            and time.time() - item_cache_path.stat().st_mtime
+            < FALLBACK_CACHE_RETRY_SECONDS
+        )
+
+        if cache_is_current and (
+            cache_source == "community" or fallback_cache_is_fresh
         ):
             return cached_items
 
     raw_items = fetch_item_data(patch)
     shop_classes, available_shop_ids = fetch_shop_metadata(patch)
-    filtered_items = filter_shop_items(raw_items, available_shop_ids)
-    normalized_items = normalize_items(filtered_items, patch, shop_classes)
+    fallback_shop_items = load_previous_shop_items(patch)
+    shop_metadata_source = (
+        "community" if available_shop_ids is not None else "fallback"
+    )
+    filtered_items = filter_shop_items(
+        raw_items,
+        available_shop_ids,
+        fallback_shop_items,
+    )
+
+    if is_item_count_suspicious(filtered_items, fallback_shop_items):
+        print(
+            "ショップアイテム数の急変を検出したため、"
+            "直前パッチの許可リストへ切り替えます。"
+        )
+        shop_classes = {}
+        shop_metadata_source = "fallback"
+        filtered_items = filter_shop_items(
+            raw_items,
+            None,
+            fallback_shop_items,
+        )
+
+    normalized_items = normalize_items(
+        filtered_items,
+        patch,
+        shop_classes,
+        shop_metadata_source,
+    )
 
     write_item_cache(item_cache_path, normalized_items)
     return normalized_items
@@ -135,8 +179,72 @@ def write_item_cache(item_cache_path, items):
         json.dump(items, file, ensure_ascii=False, indent=2)
 
 
-def filter_shop_items(raw_items, available_shop_ids=None):
+def load_previous_shop_items(current_patch):
+    candidates = sorted(
+        (
+            directory
+            for directory in CACHE_DIR.iterdir()
+            if (
+                directory.is_dir()
+                and directory.name != current_patch
+                and re.fullmatch(r"\d+\.\d+\.\d+", directory.name)
+            )
+        ),
+        key=lambda directory: tuple(
+            int(part) for part in directory.name.split(".")
+        ),
+        reverse=True,
+    )
+
+    for directory in candidates:
+        item_path = directory / "items.json"
+        if not item_path.exists():
+            continue
+
+        with item_path.open("r", encoding="utf-8") as file:
+            items = json.load(file)
+
+        return {
+            "ids": {str(item["id"]) for item in items},
+            "names_by_id": {str(item["id"]): item["name"] for item in items},
+        }
+
+    return None
+
+
+def is_item_count_suspicious(items, fallback_shop_items):
+    if fallback_shop_items is None:
+        return False
+
+    previous_count = len(fallback_shop_items["ids"] )
+    return abs(len(items) - previous_count) > MAX_ITEM_COUNT_CHANGE
+
+
+def filter_shop_items(
+    raw_items,
+    available_shop_ids=None,
+    fallback_shop_items=None,
+):
     filtered = {}
+    fallback_replacement_names = set()
+
+    if fallback_shop_items is not None:
+        sellable_names = {
+            item.get("name")
+            for item in raw_items.values()
+            if item.get("gold", {}).get("sell", 0) > 0
+        }
+        fallback_replacement_names = {
+            name
+            for item_id, name in fallback_shop_items["names_by_id"].items()
+            if (
+                item_id not in raw_items
+                or (
+                    raw_items[item_id].get("gold", {}).get("sell", 0) <= 0
+                    and name in sellable_names
+                )
+            )
+        }
 
     for item_id, item in raw_items.items():
         maps = item.get("maps", {})
@@ -156,6 +264,21 @@ def filter_shop_items(raw_items, available_shop_ids=None):
 
         if available_shop_ids is not None:
             if item_id not in available_shop_ids:
+                continue
+        elif fallback_shop_items is not None:
+            is_replaced_previous_item = (
+                item_id in fallback_shop_items["ids"]
+                and item.get("name") in fallback_replacement_names
+                and gold.get("sell", 0) <= 0
+            )
+            is_replacement_item = (
+                item.get("name") in fallback_replacement_names
+                and gold.get("sell", 0) > 0
+            )
+            if (
+                item_id not in fallback_shop_items["ids"]
+                and not is_replacement_item
+            ) or is_replaced_previous_item:
                 continue
         elif gold.get("sell", 0) <= 0:
             continue
@@ -212,7 +335,12 @@ def get_item_sort_group(item):
 
     return "99-other"
 
-def normalize_items(items, patch, shop_classes=None):
+def normalize_items(
+    items,
+    patch,
+    shop_classes=None,
+    shop_metadata_source="community",
+):
     normalized = []
     shop_classes = shop_classes or {}
 
@@ -220,6 +348,7 @@ def normalize_items(items, patch, shop_classes=None):
         normalized.append(
             {
                 "cache_version": ITEM_CACHE_VERSION,
+                "shop_metadata_source": shop_metadata_source,
                 "id": item_id,
                 "name": item.get("name", ""),
                 "description": item.get("description", ""),

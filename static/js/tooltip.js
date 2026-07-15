@@ -21,6 +21,12 @@ const MOBILE_TOOLTIP_DURATION = 5000;
 const mobileTooltipQuery = window.matchMedia("(hover: none), (pointer: coarse)");
 let mobileTooltipTimer = null;
 
+window.addEventListener("scroll", () => {
+    if (!tooltip.hidden) {
+        hideItemTooltip();
+    }
+}, { passive: true });
+
 tooltipItemCards.forEach(card => {
     card.addEventListener("mouseenter", event => {
         const item = tooltipItemsById.get(String(JSON.parse(card.dataset.item).id));
